@@ -1,0 +1,1957 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/f:Person.cs" caret="0" fromTop="0" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmCurveEdit.cs" caret="641" fromTop="8" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:GraphControl/f:FrmEditPoint.cs" caret="5844" fromTop="11" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:GraphControl/f:UCImageController.cs" caret="2501" fromTop="11" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:GraphControl/f:UCGraphDesigner.cs" caret="12911" fromTop="11" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Tareas/f:FrmCalculoTT.cs" caret="12097" fromTop="22" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Tareas/f:FrmTanque.cs" caret="2451" fromTop="5" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/f:CalculateHelper.cs" caret="327" fromTop="8" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Tareas/f:FrmDeterminarTT.cs" caret="1933" fromTop="9" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Codificadores/f:FrmFormula.cs" caret="2247" fromTop="16" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Tareas/f:FrmEvalHorno.cs" caret="3779" fromTop="23" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/f:FrmWelcome.cs" caret="914" fromTop="16" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:GraphControl/f:Serie.cs" caret="3317" fromTop="0" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:GraphControl/f:Axe.cs" caret="16101" fromTop="15" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/f:FrmMain.cs" caret="1669" fromTop="5" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmChooseFormula.cs" caret="2367" fromTop="13" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Codificadores/f:FrmAcero.cs" caret="4404" fromTop="10" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/f:DSDatos.cs" caret="3074" fromTop="19" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/f:DSDatos.Designer.cs" caret="866058" fromTop="10" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmViewPredecir.cs" caret="2452" fromTop="21" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/f:Program.cs" caret="675" fromTop="10" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:PreditionAlgorithm.cs" caret="42630" fromTop="13" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="17467" fromTop="22" />
+      <File id="D31CD04F-E9DE-4FAA-A2CC-73E173FCF65D/f:UnitTest1.cs" caret="301" fromTop="14" />
+      <File id="D31CD04F-E9DE-4FAA-A2CC-73E173FCF65D/f:PreditionAlgorithm_CalculatedPointTest.cs" caret="2763" fromTop="8" />
+      <File id="D31CD04F-E9DE-4FAA-A2CC-73E173FCF65D/f:PreditionAlgorithm_UserAlgorithmTest.cs" caret="2489" fromTop="17" />
+      <File id="D31CD04F-E9DE-4FAA-A2CC-73E173FCF65D/f:PreditionAlgorithm_Properties_PropertiesCalculatedTest.cs" caret="0" fromTop="0" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:GraphControl/f:UCGraphControl.cs" caret="858" fromTop="22" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:GraphControl/f:Point.cs" caret="111" fromTop="4" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredictPropiedades.cs" caret="5341" fromTop="8" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:PreditionAlgorithm.cs" caret="33578" fromTop="11" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:PreditionAlgorithm.cs" caret="43281" fromTop="6" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:PreditionAlgorithm.cs" caret="26071" fromTop="10" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmViewPredecir.cs" caret="2814" fromTop="16" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredictPropiedades.cs" caret="11496" fromTop="16" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredictPropiedades.cs" caret="8020" fromTop="13" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="25377" fromTop="31" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/f:Program.cs" caret="708" fromTop="10" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="12938" fromTop="15" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="13587" fromTop="21" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="16502" fromTop="31" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="9841" fromTop="10" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="11286" fromTop="16" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="14747" fromTop="18" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="11748" fromTop="9" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="13941" fromTop="12" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="9584" fromTop="14" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="11028" fromTop="21" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="16271" fromTop="10" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="16271" fromTop="17" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="16374" fromTop="22" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="32334" fromTop="22" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="16657" fromTop="10" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredecir.cs" caret="17467" fromTop="22" />
+      <File id="D31CD04F-E9DE-4FAA-A2CC-73E173FCF65D/f:UnitTest1.cs" caret="313" fromTop="14" />
+      <File id="D31CD04F-E9DE-4FAA-A2CC-73E173FCF65D/f:PreditionAlgorithm_CalculatedPointTest.cs" caret="2722" fromTop="11" />
+      <File id="D31CD04F-E9DE-4FAA-A2CC-73E173FCF65D/f:PreditionAlgorithm_Properties_PropertiesCalculatedTest.cs" caret="0" fromTop="0" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredictPropiedades.cs" caret="5210" fromTop="8" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredictPropiedades.cs" caret="5391" fromTop="13" />
+      <File id="38259277-1F1A-4825-8DA0-C667CD2A42E2/d:Prediccion/f:FrmPredictPropiedades.cs" caret="5678" fromTop="16" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="return" priority="165" />
+      <Item value="form" priority="1" />
+      <Item value="CreateForm`0" priority="5" />
+      <Item value="new" priority="143" />
+      <Item value="from" priority="0" />
+      <Item value="FrmDeterminarTTcs`0" priority="0" />
+      <Item value="if" priority="269" />
+      <Item value="e" priority="24" />
+      <Item value="Ellipsis" priority="1" />
+      <Item value="t_TipoPiezaGeometriaTableAdapter" priority="1" />
+      <Item value="dSDatos" priority="97" />
+      <Item value="t_TipoPropiedadSolTableAdapter" priority="2" />
+      <Item value="var" priority="283" />
+      <Item value="FrmTipoPieza`0" priority="0" />
+      <Item value="frmtipopieza" priority="0" />
+      <Item value="Glyph" priority="0" />
+      <Item value="t_HornoTableAdapter" priority="0" />
+      <Item value="t_TipoHornoTableAdapter" priority="0" />
+      <Item value="t_TipoFundicionTableAdapter" priority="0" />
+      <Item value="t_MaterialTableAdapter" priority="0" />
+      <Item value="DSDatos`0" priority="35" />
+      <Item value="t_TipoMaterialTableAdapter1" priority="0" />
+      <Item value="t_TipoMaterialTableAdapter" priority="0" />
+      <Item value="t_TratamientoTableAdapter" priority="1" />
+      <Item value="t_TipoPiezaTableAdapter" priority="1" />
+      <Item value="TabAlignment`0" priority="0" />
+      <Item value="t_ColocacionPiezaTableAdapter" priority="1" />
+      <Item value="t_ElementoTableAdapter" priority="0" />
+      <Item value="t_NormaTableAdapter" priority="0" />
+      <Item value="t_AceroTableAdapter" priority="1" />
+      <Item value="t_AceroNormaTableAdapter1" priority="4" />
+      <Item value="t_AceroElementoTableAdapter1" priority="1" />
+      <Item value="public" priority="131" />
+      <Item value="void" priority="28" />
+      <Item value="barEditItem1" priority="3" />
+      <Item value="Properties" priority="7" />
+      <Item value="Settings`0" priority="6" />
+      <Item value="Int32`0" priority="0" />
+      <Item value="DataSet" priority="3" />
+      <Item value="idnorma" priority="2" />
+      <Item value="null" priority="124" />
+      <Item value="string" priority="38" />
+      <Item value="s" priority="32" />
+      <Item value="n" priority="3" />
+      <Item value="foreach" priority="76" />
+      <Item value="aceroRow" priority="1" />
+      <Item value="normas" priority="0" />
+      <Item value="aceroNormaRow" priority="1" />
+      <Item value="t_SeparacionPiezaTableAdapter" priority="1" />
+      <Item value="t_NormaTableAdapter1" priority="1" />
+      <Item value="t_CurvaBindingSource" priority="11" />
+      <Item value="t_CurvaValorBindingSource" priority="1" />
+      <Item value="else" priority="45" />
+      <Item value="curva" priority="9" />
+      <Item value="private" priority="53" />
+      <Item value="tTipoCurvaBindingSource" priority="1" />
+      <Item value="t_AceroBindingSource" priority="2" />
+      <Item value="DataRow`0" priority="2" />
+      <Item value="DataRowView`0" priority="6" />
+      <Item value="Acero" priority="7" />
+      <Item value="true" priority="26" />
+      <Item value="t_CurvaTableAdapter" priority="2" />
+      <Item value="t_CurvaValorTableAdapter" priority="0" />
+      <Item value="FrmImportGrafico`0" priority="0" />
+      <Item value="frmimport" priority="0" />
+      <Item value="chartControl1" priority="17" />
+      <Item value="SeriesPoint" priority="1" />
+      <Item value="float" priority="44" />
+      <Item value="static" priority="27" />
+      <Item value="class" priority="14" />
+      <Item value="int" priority="46" />
+      <Item value="p" priority="19" />
+      <Item value="tim" priority="0" />
+      <Item value="c2" priority="1" />
+      <Item value="tfm" priority="0" />
+      <Item value="cl" priority="1" />
+      <Item value="tfl" priority="0" />
+      <Item value="vl" priority="4" />
+      <Item value="vc" priority="4" />
+      <Item value="ve" priority="0" />
+      <Item value="Peso" priority="2" />
+      <Item value="TF" priority="8" />
+      <Item value="kwh" priority="0" />
+      <Item value="Eficiencia" priority="2" />
+      <Item value="cantpiezas" priority="3" />
+      <Item value="Potencia" priority="3" />
+      <Item value="List" priority="49" />
+      <Item value="res" priority="65" />
+      <Item value="for" priority="16" />
+      <Item value="temppeso" priority="1" />
+      <Item value="EvaluarPieza`0" priority="0" />
+      <Item value="TI" priority="0" />
+      <Item value="evaluacion" priority="2" />
+      <Item value="cantpiezasres" priority="2" />
+      <Item value="while" priority="8" />
+      <Item value="q" priority="0" />
+      <Item value="Horno" priority="2" />
+      <Item value="pesoedit" priority="4" />
+      <Item value="cantpiezasedit" priority="2" />
+      <Item value="tempinicialedit" priority="0" />
+      <Item value="tempfinaledit" priority="0" />
+      <Item value="potenciaedit" priority="0" />
+      <Item value="eficienciaedit" priority="0" />
+      <Item value="t_CapacidadDeslozeTableAdapter" priority="0" />
+      <Item value="t_CapacidadCalorificaTableAdapter" priority="0" />
+      <Item value="material" priority="0" />
+      <Item value="partial" priority="1" />
+      <Item value="GetT_CapacidadCalorificaRows`0" priority="0" />
+      <Item value="cap" priority="1" />
+      <Item value="CopyTo`0" priority="0" />
+      <Item value="Length" priority="0" />
+      <Item value="capacidadDeslozeRow" priority="7" />
+      <Item value="inicial" priority="14" />
+      <Item value="final" priority="8" />
+      <Item value="break" priority="11" />
+      <Item value="Material" priority="6" />
+      <Item value="t_CapacidadCalorificaTableAdapter1" priority="1" />
+      <Item value="t_CapacidadDeslozeTableAdapter1" priority="1" />
+      <Item value="AMath`0" priority="2" />
+      <Item value="xi" priority="2" />
+      <Item value="xf" priority="3" />
+      <Item value="xrf" priority="2" />
+      <Item value="xri" priority="2" />
+      <Item value="total" priority="0" />
+      <Item value="double" priority="130" />
+      <Item value="NotImplementedException`0" priority="1" />
+      <Item value="dxValidationProvider1" priority="5" />
+      <Item value="ACINOX" priority="7" />
+      <Item value="Functions" priority="7" />
+      <Item value="Validation`0" priority="0" />
+      <Item value="frmreport" priority="1" />
+      <Item value="Dictionary" priority="38" />
+      <Item value="ucReport1" priority="0" />
+      <Item value="filename" priority="0" />
+      <Item value="Parameter`0" priority="7" />
+      <Item value="src" priority="5" />
+      <Item value="i" priority="31" />
+      <Item value="String`0" priority="27" />
+      <Item value="keyValuePair" priority="3" />
+      <Item value="Application`0" priority="2" />
+      <Item value="Parameter" priority="0" />
+      <Item value="OnFirstLoad`0" priority="0" />
+      <Item value="dt" priority="6" />
+      <Item value="FReport" priority="3" />
+      <Item value="parametro" priority="3" />
+      <Item value="t" priority="66" />
+      <Item value="false" priority="22" />
+      <Item value="object" priority="9" />
+      <Item value="node" priority="2" />
+      <Item value="tHornoRow" priority="0" />
+      <Item value="Hornoedit" priority="4" />
+      <Item value="aceroedit" priority="0" />
+      <Item value="labelControl1" priority="1" />
+      <Item value="labelControl2" priority="1" />
+      <Item value="inicialliquidoedit" priority="3" />
+      <Item value="finalliquidoedit" priority="2" />
+      <Item value="CalculateHelper`0" priority="4" />
+      <Item value="InvalidCastException`0" priority="0" />
+      <Item value="switch" priority="6" />
+      <Item value="idmedioenf" priority="0" />
+      <Item value="case" priority="2" />
+      <Item value="get" priority="0" />
+      <Item value="MedioEnfriamiento" priority="6" />
+      <Item value="c1" priority="0" />
+      <Item value="vle" priority="3" />
+      <Item value="vt" priority="1" />
+      <Item value="dimensionedit" priority="1" />
+      <Item value="l" priority="2" />
+      <Item value="inicialmetaledit" priority="2" />
+      <Item value="finmetaledit" priority="2" />
+      <Item value="Dictionary&lt;string,object&gt;" priority="1" />
+      <Item value="medioenfedit" priority="0" />
+      <Item value="tipomatedit" priority="0" />
+      <Item value="pictureBox1" priority="2" />
+      <Item value="Image`0" priority="2" />
+      <Item value="File`0" priority="0" />
+      <Item value="pi" priority="0" />
+      <Item value="Bitmap`0" priority="4" />
+      <Item value="Graphics`0" priority="5" />
+      <Item value="g" priority="9" />
+      <Item value="GetImage`0" priority="0" />
+      <Item value="Font`0" priority="1" />
+      <Item value="f" priority="12" />
+      <Item value="Brushes`0" priority="0" />
+      <Item value="PointF" priority="0" />
+      <Item value="Pen" priority="1" />
+      <Item value="color" priority="1" />
+      <Item value="Color`0" priority="15" />
+      <Item value="Point" priority="18" />
+      <Item value="RowStyle`0" priority="0" />
+      <Item value="AntiAlias" priority="0" />
+      <Item value="tTipoPropiedadSolBindingSource" priority="3" />
+      <Item value="t_TratamientoTableAdapter1" priority="0" />
+      <Item value="t_TratamientoDeslozeTableAdapter1" priority="2" />
+      <Item value="FrmAcero`0" priority="0" />
+      <Item value="Table" priority="0" />
+      <Item value="dataset" priority="6" />
+      <Item value="VARIABLE" priority="10" />
+      <Item value="row" priority="10" />
+      <Item value="props" priority="0" />
+      <Item value="tratamientoDeslozeRow" priority="5" />
+      <Item value="propiedad" priority="2" />
+      <Item value="FrmTanque`0" priority="0" />
+      <Item value="inimetal" priority="2" />
+      <Item value="finmetal" priority="2" />
+      <Item value="iniliq" priority="3" />
+      <Item value="cantpiez" priority="2" />
+      <Item value="peso" priority="1" />
+      <Item value="dimension" priority="1" />
+      <Item value="Area" priority="0" />
+      <Item value="Math`0" priority="69" />
+      <Item value="ht" priority="1" />
+      <Item value="r" priority="62" />
+      <Item value="v" priority="7" />
+      <Item value="hal" priority="0" />
+      <Item value="h" priority="2" />
+      <Item value="c" priority="18" />
+      <Item value="a" priority="1" />
+      <Item value="A" priority="0" />
+      <Item value="CalculateCircular`0" priority="0" />
+      <Item value="CalculateRect`0" priority="0" />
+      <Item value="finliq" priority="0" />
+      <Item value="HttpStyleUriParser`0" priority="0" />
+      <Item value="Diametro`0" priority="0" />
+      <Item value="Are" priority="0" />
+      <Item value="Ancho_Diametro" priority="1" />
+      <Item value="textEdit1" priority="6" />
+      <Item value="tAceroBindingSource" priority="2" />
+      <Item value="gridLookUpEdit1" priority="0" />
+      <Item value="t_TipoTratamientoTableAdapter1" priority="0" />
+      <Item value="idacero" priority="0" />
+      <Item value="MessageBox`0" priority="7" />
+      <Item value="DeterminarTTDataTable`0" priority="0" />
+      <Item value="dtt" priority="9" />
+      <Item value="ddtr" priority="1" />
+      <Item value="ttr" priority="4" />
+      <Item value="nameacero" priority="1" />
+      <Item value="dttr" priority="9" />
+      <Item value="ValueType`0" priority="4" />
+      <Item value="valor" priority="6" />
+      <Item value="VARIABLE`0" priority="0" />
+      <Item value="temptemple" priority="1" />
+      <Item value="DataRowAction`0" priority="0" />
+      <Item value="p1" priority="14" />
+      <Item value="p2" priority="7" />
+      <Item value="Size" priority="0" />
+      <Item value="second" priority="1" />
+      <Item value="first" priority="3" />
+      <Item value="Cursor`0" priority="1" />
+      <Item value="Pens`0" priority="0" />
+      <Item value="Pen`0" priority="2" />
+      <Item value="pen" priority="1" />
+      <Item value="axeman" priority="1" />
+      <Item value="Axe" priority="32" />
+      <Item value="colorEdit1" priority="6" />
+      <Item value="LoaderOptimization`0" priority="0" />
+      <Item value="LoadAxe`0" priority="0" />
+      <Item value="axe" priority="7" />
+      <Item value="bindingSource1" priority="12" />
+      <Item value="ucGraphControl1" priority="31" />
+      <Item value="gridView1" priority="6" />
+      <Item value="UpdateAxes`0" priority="0" />
+      <Item value="ManagingAxe" priority="5" />
+      <Item value="barStaticItem1" priority="0" />
+      <Item value="SelectColor" priority="0" />
+      <Item value="graphControl" priority="0" />
+      <Item value="State" priority="1" />
+      <Item value="barStaticItem2" priority="1" />
+      <Item value="Cursors`0" priority="0" />
+      <Item value="Point`0" priority="21" />
+      <Item value="value" priority="39" />
+      <Item value="textEdit2" priority="1" />
+      <Item value="pointEditItem1" priority="16" />
+      <Item value="pointEditItem2" priority="1" />
+      <Item value="try" priority="4" />
+      <Item value="enum" priority="2" />
+      <Item value="AxeScale`0" priority="0" />
+      <Item value="Name" priority="1" />
+      <Item value="namedit" priority="1" />
+      <Item value="umedit" priority="0" />
+      <Item value="valormaxedit" priority="0" />
+      <Item value="valorminedit" priority="0" />
+      <Item value="escalaedit" priority="0" />
+      <Item value="Scale" priority="0" />
+      <Item value="Lineal" priority="0" />
+      <Item value="Color" priority="0" />
+      <Item value="Close`0" priority="4" />
+      <Item value="RealPointFinal" priority="15" />
+      <Item value="RealPointInitial" priority="7" />
+      <Item value="GridColumn" priority="0" />
+      <Item value="Axe`0" priority="7" />
+      <Item value="EventHandler`0" priority="3" />
+      <Item value="OnAceptar`0" priority="0" />
+      <Item value="OnCancelar`0" priority="0" />
+      <Item value="OnAceptar" priority="3" />
+      <Item value="this" priority="21" />
+      <Item value="sender" priority="19" />
+      <Item value="OnCancelar" priority="2" />
+      <Item value="bool" priority="24" />
+      <Item value="OnButtonClick" priority="0" />
+      <Item value="OnModifiyCoordClick`0" priority="0" />
+      <Item value="GraphState`0" priority="8" />
+      <Item value="Ready" priority="1" />
+      <Item value="_bef" priority="7" />
+      <Item value="state" priority="0" />
+      <Item value="WaitingForClick" priority="0" />
+      <Item value="PointEditItem`0" priority="2" />
+      <Item value="_edititem" priority="5" />
+      <Item value="SimpleButton`0" priority="0" />
+      <Item value="ReturnPoint" priority="0" />
+      <Item value="OnChange" priority="1" />
+      <Item value="OnChangePoint`0" priority="0" />
+      <Item value="_point" priority="4" />
+      <Item value="edit" priority="14" />
+      <Item value="OpenFileDialog`0" priority="0" />
+      <Item value="event" priority="2" />
+      <Item value="is" priority="11" />
+      <Item value="UCGraphControl`0" priority="4" />
+      <Item value="eventArgs" priority="0" />
+      <Item value="_state" priority="7" />
+      <Item value="FrmAxeManager`0" priority="4" />
+      <Item value="_axeManager" priority="3" />
+      <Item value="AxeManager" priority="0" />
+      <Item value="NewsStyleUriParser`0" priority="2" />
+      <Item value="ChangeState`0" priority="0" />
+      <Item value="List&lt;AxePoint&gt;" priority="0" />
+      <Item value="AxePoint`0" priority="9" />
+      <Item value="Value" priority="0" />
+      <Item value="AxePointList`0" priority="5" />
+      <Item value="Clear`0" priority="1" />
+      <Item value="_axe" priority="1" />
+      <Item value="distancia" priority="1" />
+      <Item value="EnvironmentVariableTarget`0" priority="4" />
+      <Item value="FrmEditPoint`0" priority="4" />
+      <Item value="pointform" priority="10" />
+      <Item value="layoutControl1" priority="2" />
+      <Item value="_list" priority="1" />
+      <Item value="List&lt;Point&gt;" priority="0" />
+      <Item value="Serializable" priority="3" />
+      <Item value="SeriePoint`0" priority="9" />
+      <Item value="FrmManageSerie`0" priority="0" />
+      <Item value="seriemman" priority="3" />
+      <Item value="Serie`0" priority="13" />
+      <Item value="_serie" priority="3" />
+      <Item value="Serie" priority="20" />
+      <Item value="SeriePoint" priority="1" />
+      <Item value="Edit" priority="4" />
+      <Item value="Cerrar" priority="0" />
+      <Item value="ButtonBottomArgs" priority="0" />
+      <Item value="ButtonBottomArgs`0" priority="0" />
+      <Item value="Control" priority="11" />
+      <Item value="ManagingSerie" priority="1" />
+      <Item value="uCGraphControl" priority="6" />
+      <Item value="ManagingSeriePoints" priority="2" />
+      <Item value="Count" priority="7" />
+      <Item value="IFormatProvider`0" priority="1" />
+      <Item value="Refresh`0" priority="2" />
+      <Item value="TempPoint" priority="2" />
+      <Item value="XtraUserControl`0" priority="3" />
+      <Item value="Form`0" priority="0" />
+      <Item value="dockPanel3" priority="4" />
+      <Item value="dockPanel3_Container" priority="0" />
+      <Item value="DockPanel`0" priority="0" />
+      <Item value="dockPanel2" priority="2" />
+      <Item value="Fill" priority="0" />
+      <Item value="show" priority="1" />
+      <Item value="ManageForm`0" priority="1" />
+      <Item value="SetBounds`0" priority="0" />
+      <Item value="layoutControlItem1" priority="0" />
+      <Item value="Random`0" priority="1" />
+      <Item value="random" priority="2" />
+      <Item value="bindingSource2" priority="6" />
+      <Item value="GetColors`0" priority="0" />
+      <Item value="colors" priority="2" />
+      <Item value="do" priority="2" />
+      <Item value="_lastcolor" priority="3" />
+      <Item value="temp" priority="17" />
+      <Item value="AxeList`0" priority="1" />
+      <Item value="FrmPointFromAxe`0" priority="0" />
+      <Item value="coor" priority="3" />
+      <Item value="OK" priority="3" />
+      <Item value="_inicial" priority="1" />
+      <Item value="_final" priority="1" />
+      <Item value="ImageComboBoxEdit`0" priority="2" />
+      <Item value="FillCombo`0" priority="1" />
+      <Item value="imageComboBoxEdit1" priority="1" />
+      <Item value="imageComboBoxEdit2" priority="0" />
+      <Item value="combo" priority="0" />
+      <Item value="item" priority="9" />
+      <Item value="LineWidth" priority="0" />
+      <Item value="Console`0" priority="0" />
+      <Item value="control" priority="0" />
+      <Item value="axePoint" priority="0" />
+      <Item value="Orientation`0" priority="3" />
+      <Item value="AxeOrientation`0" priority="0" />
+      <Item value="AxisOrientation`0" priority="3" />
+      <Item value="Orientation" priority="3" />
+      <Item value="Horizontal" priority="1" />
+      <Item value="AxisPoint" priority="4" />
+      <Item value="Axis`0" priority="3" />
+      <Item value="last" priority="2" />
+      <Item value="Points" priority="7" />
+      <Item value="ValueFromPoint`0" priority="1" />
+      <Item value="Axis" priority="5" />
+      <Item value="AxisValueOrientation`0" priority="6" />
+      <Item value="ValueOrientation" priority="4" />
+      <Item value="FrontToBack" priority="3" />
+      <Item value="CompareDinosByLength`0" priority="2" />
+      <Item value="AxisPoint`0" priority="0" />
+      <Item value="x" priority="7" />
+      <Item value="Rectangle`0" priority="1" />
+      <Item value="Rect" priority="0" />
+      <Item value="axisPoint" priority="2" />
+      <Item value="AxisPointList`0" priority="0" />
+      <Item value="BackToFront" priority="1" />
+      <Item value="v1" priority="1" />
+      <Item value="ValueMin" priority="1" />
+      <Item value="ValueMax" priority="1" />
+      <Item value="pend" priority="1" />
+      <Item value="pstart" priority="2" />
+      <Item value="invert" priority="0" />
+      <Item value="max" priority="17" />
+      <Item value="cant" priority="1" />
+      <Item value="List&lt;double&gt;" priority="1" />
+      <Item value="Parameters" priority="9" />
+      <Item value="w" priority="8" />
+      <Item value="gridControl1" priority="4" />
+      <Item value="param" priority="1" />
+      <Item value="openFileDialog1" priority="3" />
+      <Item value="DialogResult`0" priority="3" />
+      <Item value="XtraMessageBox`0" priority="0" />
+      <Item value="Error" priority="0" />
+      <Item value="layoutControlItem3" priority="0" />
+      <Item value="Axs" priority="2" />
+      <Item value="simpleButton4" priority="0" />
+      <Item value="SetEnabled`0" priority="3" />
+      <Item value="ManagingStartPoint" priority="0" />
+      <Item value="toolTipController1" priority="0" />
+      <Item value="ucImageController1" priority="6" />
+      <Item value="sel" priority="0" />
+      <Item value="GraphObject" priority="1" />
+      <Item value="DataTable`0" priority="6" />
+      <Item value="R" priority="5" />
+      <Item value="CreateData`0" priority="0" />
+      <Item value="bindingSource3" priority="0" />
+      <Item value="DataRow" priority="0" />
+      <Item value="values" priority="5" />
+      <Item value="rw" priority="0" />
+      <Item value="SetValue`0" priority="0" />
+      <Item value="index" priority="9" />
+      <Item value="series" priority="16" />
+      <Item value="axis" priority="17" />
+      <Item value="gridView3" priority="1" />
+      <Item value="data" priority="0" />
+      <Item value="DataColumn`0" priority="0" />
+      <Item value="GridColumn`0" priority="0" />
+      <Item value="IMultiColumnListBox`0" priority="0" />
+      <Item value="column" priority="3" />
+      <Item value="dataColumn" priority="1" />
+      <Item value="gridControl3" priority="2" />
+      <Item value="GetParams`0" priority="0" />
+      <Item value="Series" priority="0" />
+      <Item value="serie" priority="23" />
+      <Item value="point" priority="8" />
+      <Item value="DataColumn" priority="0" />
+      <Item value="ParameterList`0" priority="5" />
+      <Item value="parameterList" priority="1" />
+      <Item value="dataTable" priority="1" />
+      <Item value="parameter" priority="3" />
+      <Item value="dr" priority="0" />
+      <Item value="Add`0" priority="0" />
+      <Item value="dataRow" priority="0" />
+      <Item value="UM" priority="0" />
+      <Item value="Clicked" priority="0" />
+      <Item value="gridView2" priority="2" />
+      <Item value="table" priority="0" />
+      <Item value="Controller" priority="1" />
+      <Item value="spinEdit5" priority="1" />
+      <Item value="Text" priority="0" />
+      <Item value="saveFileDialog1" priority="6" />
+      <Item value="Image" priority="4" />
+      <Item value="RotateFlipType`0" priority="0" />
+      <Item value="RotateAndSaveImage`0" priority="0" />
+      <Item value="RotateImage`0" priority="1" />
+      <Item value="Bitmap" priority="0" />
+      <Item value="rotateImage" priority="0" />
+      <Item value="Rotation" priority="2" />
+      <Item value="spinEdit3" priority="0" />
+      <Item value="ImageController`0" priority="0" />
+      <Item value="ImageController" priority="4" />
+      <Item value="_controller" priority="1" />
+      <Item value="SetMethod`0" priority="0" />
+      <Item value="NonSerialized" priority="0" />
+      <Item value="UCImageController`0" priority="0" />
+      <Item value="base" priority="0" />
+      <Item value="_Control" priority="0" />
+      <Item value="UpdateEdit`0" priority="1" />
+      <Item value="SaveFileDialog`0" priority="0" />
+      <Item value="FrmMain`0" priority="8" />
+      <Item value="FrmCurveEdit`0" priority="0" />
+      <Item value="ucGraphDesigner1" priority="1" />
+      <Item value="GraphicObject`0" priority="5" />
+      <Item value="FileName" priority="1" />
+      <Item value="stream" priority="5" />
+      <Item value="Stream`0" priority="0" />
+      <Item value="Mem" priority="0" />
+      <Item value="byte" priority="0" />
+      <Item value="_data" priority="3" />
+      <Item value="DialogResult" priority="0" />
+      <Item value="MemoryStream`0" priority="0" />
+      <Item value="ExecuteLoad`0" priority="0" />
+      <Item value="FrmPredecir`0" priority="14" />
+      <Item value="SerieList`0" priority="5" />
+      <Item value="result" priority="33" />
+      <Item value="s2i" priority="0" />
+      <Item value="PreditionAlgorithm`0" priority="7" />
+      <Item value="layoutControlItem5" priority="6" />
+      <Item value="t_AceroTipoPuntoTableAdapter" priority="2" />
+      <Item value="t_AceroPuntoFormulaTableAdapter1" priority="1" />
+      <Item value="FrmFormula`0" priority="0" />
+      <Item value="t_AceroPuntoTableAdapter1" priority="2" />
+      <Item value="forms" priority="0" />
+      <Item value="_pto" priority="1" />
+      <Item value="t_AceroPuntoTableAdapter" priority="0" />
+      <Item value="t_FormulaTableAdapter" priority="0" />
+      <Item value="t_AceroPuntoFormulaTableAdapter" priority="0" />
+      <Item value="buttonEdit1" priority="1" />
+      <Item value="buttonEdit5" priority="1" />
+      <Item value="aceroPredecGridControl" priority="0" />
+      <Item value="ptos" priority="1" />
+      <Item value="aceroPuntoRow" priority="1" />
+      <Item value="t_AceroTipoPuntoTableAdapter1" priority="0" />
+      <Item value="NCalc" priority="1" />
+      <Item value="Expression`0" priority="1" />
+      <Item value="md" priority="0" />
+      <Item value="DB" priority="92" />
+      <Item value="DefaultView" priority="0" />
+      <Item value="indexFromCount`0" priority="0" />
+      <Item value="GetItem`0" priority="0" />
+      <Item value="aceroPredecRow" priority="5" />
+      <Item value="str" priority="0" />
+      <Item value="IntegralK`0" priority="1" />
+      <Item value="D`0" priority="1" />
+      <Item value="Cef`0" priority="0" />
+      <Item value="Xf" priority="0" />
+      <Item value="checkedListBoxControl1" priority="3" />
+      <Item value="CheckedListBox`0" priority="0" />
+      <Item value="Unchecked" priority="0" />
+      <Item value="GetCarbono`0" priority="0" />
+      <Item value="Rows" priority="0" />
+      <Item value="GetindexList`0" priority="0" />
+      <Item value="repositoryItemGridLookUpEdit1View" priority="0" />
+      <Item value="t_ConstanteTableAdapter1" priority="0" />
+      <Item value="db" priority="11" />
+      <Item value="constanteRow" priority="1" />
+      <Item value="valorconst" priority="0" />
+      <Item value="LayoutVisibility`0" priority="1" />
+      <Item value="Strings`0" priority="2" />
+      <Item value="IsValidDB`0" priority="0" />
+      <Item value="throw" priority="0" />
+      <Item value="Exception" priority="0" />
+      <Item value="method" priority="2" />
+      <Item value="Db" priority="0" />
+      <Item value="radioGroup1" priority="3" />
+      <Item value="IsValidTemp`0" priority="0" />
+      <Item value="o" priority="0" />
+      <Item value="top" priority="1" />
+      <Item value="UserAlgorithm`0" priority="1" />
+      <Item value="out" priority="4" />
+      <Item value="Double`0" priority="0" />
+      <Item value="Vi" priority="0" />
+      <Item value="TF`0" priority="2" />
+      <Item value="Vf" priority="0" />
+      <Item value="algorithm" priority="4" />
+      <Item value="KirkaldyAlgorithm`0" priority="0" />
+      <Item value="vi" priority="2" />
+      <Item value="vf" priority="0" />
+      <Item value="Ae3cm" priority="1" />
+      <Item value="Ae1" priority="1" />
+      <Item value="CalculatedPoint`0" priority="17" />
+      <Item value="Final" priority="5" />
+      <Item value="Temp" priority="8" />
+      <Item value="ResolveEventArgs`0" priority="2" />
+      <Item value="ferrita" priority="5" />
+      <Item value="end" priority="1" />
+      <Item value="GetNouseBainita`0" priority="0" />
+      <Item value="CalculateBerlita`0" priority="0" />
+      <Item value="CalculateBainita`0" priority="0" />
+      <Item value="calculatedPoint" priority="20" />
+      <Item value="bainita" priority="6" />
+      <Item value="perlita" priority="5" />
+      <Item value="SeriePointList`0" priority="1" />
+      <Item value="seriinicial" priority="3" />
+      <Item value="seriefinal" priority="4" />
+      <Item value="pasotemp" priority="4" />
+      <Item value="pt" priority="1" />
+      <Item value="Dictionary&lt;string,double&gt;" priority="1" />
+      <Item value="_default" priority="1" />
+      <Item value="d" priority="2" />
+      <Item value="aceroPredecBindingSource" priority="2" />
+      <Item value="tiempo" priority="4" />
+      <Item value="Logaritmic" priority="0" />
+      <Item value="Func" priority="0" />
+      <Item value="px" priority="0" />
+      <Item value="py" priority="0" />
+      <Item value="ferr" priority="0" />
+      <Item value="r1" priority="0" />
+      <Item value="ri" priority="0" />
+      <Item value="rf" priority="0" />
+      <Item value="bai" priority="1" />
+      <Item value="perl" priority="1" />
+      <Item value="MaxValue`0" priority="1" />
+      <Item value="calculatedPoints" priority="0" />
+      <Item value="List&lt;CalculatedPoint&gt;" priority="0" />
+      <Item value="asintotata" priority="0" />
+      <Item value="asintota" priority="3" />
+      <Item value="CalculatedPoint" priority="4" />
+      <Item value="Inicial" priority="3" />
+      <Item value="char" priority="0" />
+      <Item value="Dash" priority="0" />
+      <Item value="CalculatedPointList`0" priority="9" />
+      <Item value="mf" priority="1" />
+      <Item value="retTiempo" priority="2" />
+      <Item value="To" priority="4" />
+      <Item value="Vle" priority="9" />
+      <Item value="T" priority="13" />
+      <Item value="Martesita`0" priority="0" />
+      <Item value="Ta" priority="0" />
+      <Item value="tb" priority="1" />
+      <Item value="ItemByRange`0" priority="0" />
+      <Item value="ItemByTemp`0" priority="0" />
+      <Item value="min" priority="7" />
+      <Item value="m" priority="7" />
+      <Item value="mi" priority="1" />
+      <Item value="calculatedPointList" priority="9" />
+      <Item value="name" priority="6" />
+      <Item value="Bainita`0" priority="1" />
+      <Item value="UpdateDictionary`0" priority="2" />
+      <Item value="tf" priority="1" />
+      <Item value="Percents" priority="2" />
+      <Item value="F_Martesita`0" priority="0" />
+      <Item value="tiempos" priority="2" />
+      <Item value="b" priority="3" />
+      <Item value="Di`0" priority="0" />
+      <Item value="F_Transformada`0" priority="1" />
+      <Item value="key" priority="0" />
+      <Item value="Normalize`0" priority="1" />
+      <Item value="arr" priority="2" />
+      <Item value="ser" priority="3" />
+      <Item value="PredictSeries`0" priority="2" />
+      <Item value="GetTemp`0" priority="0" />
+      <Item value="ti" priority="1" />
+      <Item value="Inicio" priority="0" />
+      <Item value="microestruct" priority="0" />
+      <Item value="TFin" priority="1" />
+      <Item value="FrmCurveManager`0" priority="1" />
+      <Item value="t_CurvaTableAdapter1" priority="0" />
+      <Item value="graphobject" priority="6" />
+      <Item value="LoadFromStreamGeneral`0" priority="0" />
+      <Item value="in" priority="1" />
+      <Item value="mbox" priority="0" />
+      <Item value="axiss" priority="0" />
+      <Item value="AccessViolationException`0" priority="0" />
+      <Item value="vis" priority="0" />
+      <Item value="maxp" priority="1" />
+      <Item value="te" priority="0" />
+      <Item value="Properties`0" priority="0" />
+      <Item value="CalculatedPointList" priority="0" />
+      <Item value="Dictionary&lt;string,CalculatedPoint&gt;" priority="0" />
+      <Item value="PropertiesCalculated`0" priority="3" />
+      <Item value="prepprop" priority="2" />
+      <Item value="ResultDB" priority="3" />
+      <Item value="UpdateChart`0" priority="0" />
+      <Item value="chartControl2" priority="4" />
+      <Item value="CreateSerieResult`0" priority="0" />
+      <Item value="y" priority="0" />
+      <Item value="ErrorBlinkStyle`0" priority="0" />
+      <Item value="GetSerieInitialPoint`0" priority="0" />
+      <Item value="Ferrita_Perlita`0" priority="0" />
+      <Item value="Martensita`0" priority="0" />
+      <Item value="Hvfp" priority="0" />
+      <Item value="Hvb" priority="0" />
+      <Item value="Hvm" priority="0" />
+      <Item value="calculated" priority="6" />
+      <Item value="List&lt;PropertiesCalculated&gt;" priority="0" />
+      <Item value="results" priority="0" />
+      <Item value="GenerateCurvesCTT`0" priority="1" />
+      <Item value="checkEdit1" priority="4" />
+      <Item value="ChartControl`0" priority="0" />
+      <Item value="FillChartControl`0" priority="1" />
+      <Item value="chart" priority="1" />
+      <Item value="predictSeries" priority="4" />
+      <Item value="UpdateChartGlobal`0" priority="0" />
+      <Item value="FrmViewPredecir`0" priority="0" />
+      <Item value="view" priority="1" />
+      <Item value="selected" priority="4" />
+      <Item value="Hv" priority="2" />
+      <Item value="dialog" priority="0" />
+      <Item value="Regimen" priority="0" />
+      <Item value="til" priority="0" />
+      <Item value="t_ConstanteTableAdapter" priority="0" />
+      <Item value="Skins`0" priority="0" />
+      <Item value="ribbonGalleryBarItem1" priority="0" />
+      <Item value="simpleButton2" priority="2" />
+      <Item value="FrmWelcome`0" priority="0" />
+      <Item value="Hide`0" priority="0" />
+      <Item value="Timer`0" priority="0" />
+      <Item value="timer1" priority="0" />
+      <Item value="appMenu" priority="0" />
+      <Item value="simpleButton3" priority="0" />
+      <Item value="Norma" priority="0" />
+      <Item value="seriePoint" priority="12" />
+      <Item value="serie1" priority="3" />
+      <Item value="ejex" priority="3" />
+      <Item value="SerieList" priority="0" />
+      <Item value="s1" priority="2" />
+      <Item value="PredictSeries" priority="0" />
+      <Item value="seriePoint2" priority="4" />
+      <Item value="internal" priority="1" />
+      <Item value="list" priority="2" />
+      <Item value="Tempetura" priority="0" />
+      <Item value="Tiempo" priority="1" />
+      <Item value="GetAutoScaleSize`0" priority="1" />
+      <Item value="checked" priority="0" />
+      <Item value="check" priority="0" />
+      <Item value="checkEdit2" priority="0" />
+      <Item value="Exception`0" priority="0" />
+      <Item value="ex" priority="1" />
+      <Item value="Dictionary&lt;string,string&gt;" priority="0" />
+      <Item value="ElementRanges" priority="3" />
+      <Item value="aceroElementoRow" priority="4" />
+      <Item value="AxisTitleY`0" priority="0" />
+      <Item value="IsValid`0" priority="0" />
+      <Item value="layoutControlItem7" priority="0" />
+      <Item value="Test`0" priority="0" />
+      <Item value="tserie" priority="0" />
+      <Item value="DateTime`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Form">
+      <Item value="Show`0" priority="0" />
+      <Item value="Parent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Controls.ButtonPressedEventArgs">
+      <Item value="Button" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Controls.EditorButton">
+      <Item value="Kind" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_TipoPiezaGeometriaTableAdapter">
+      <Item value="Update`0" priority="0" />
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos">
+      <Item value="T_TipoPiezaGeometria" priority="1" />
+      <Item value="T_TipoPropiedadSol" priority="12" />
+      <Item value="T_Horno" priority="2" />
+      <Item value="T_TipoHorno" priority="0" />
+      <Item value="T_TipoFundicion" priority="0" />
+      <Item value="T_TipoMaterial" priority="5" />
+      <Item value="T_Tratamiento" priority="6" />
+      <Item value="T_TipoPieza" priority="1" />
+      <Item value="T_ColocacionPieza" priority="1" />
+      <Item value="T_Elemento" priority="4" />
+      <Item value="T_Norma" priority="5" />
+      <Item value="T_Acero" priority="5" />
+      <Item value="T_AceroNorma" priority="4" />
+      <Item value="T_AceroElemento" priority="1" />
+      <Item value="T_SeparacionPieza" priority="0" />
+      <Item value="T_Curva" priority="9" />
+      <Item value="AcceptChanges`0" priority="1" />
+      <Item value="T_CurvaValor" priority="0" />
+      <Item value="T_CapacidadDesloze" priority="2" />
+      <Item value="T_CapacidadCalorifica" priority="2" />
+      <Item value="T_Material" priority="0" />
+      <Item value="T_MedioEnfriamiento" priority="1" />
+      <Item value="T_TratamientoDesloze" priority="2" />
+      <Item value="T_TipoTratamiento" priority="0" />
+      <Item value="DeterminarTT" priority="1" />
+      <Item value="AceroPredec" priority="8" />
+      <Item value="T_AceroTipoPunto" priority="2" />
+      <Item value="T_AceroPunto" priority="4" />
+      <Item value="T_AceroPuntoFormula" priority="2" />
+      <Item value="T_Formula" priority="1" />
+      <Item value="T_Constante" priority="3" />
+      <Item value="AceroElemento" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_TipoPropiedadSolTableAdapter">
+      <Item value="Update`0" priority="0" />
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.FrmTipoPieza">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DevExpress.XtraEditors.Controls.ButtonPredefines">
+      <Item value="Ellipsis" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_HornoTableAdapter">
+      <Item value="Update`0" priority="0" />
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_TipoFundicionTableAdapter">
+      <Item value="Update`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_MaterialTableAdapter">
+      <Item value="Update`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_TipoMaterialTableAdapter">
+      <Item value="Update`0" priority="0" />
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_TratamientoTableAdapter">
+      <Item value="Update`0" priority="1" />
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_TipoPiezaTableAdapter">
+      <Item value="Update`0" priority="0" />
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_ColocacionPiezaTableAdapter">
+      <Item value="Update`0" priority="0" />
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_ElementoTableAdapter">
+      <Item value="Update`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_NormaTableAdapter">
+      <Item value="Update`0" priority="0" />
+      <Item value="Fill`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_AceroTableAdapter">
+      <Item value="Update`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_AceroNormaTableAdapter">
+      <Item value="Fill`0" priority="3" />
+      <Item value="Update`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_AceroElementoTableAdapter">
+      <Item value="Fill`0" priority="0" />
+      <Item value="Update`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraBars.BarEditItem">
+      <Item value="EditValue" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.Properties.Settings">
+      <Item value="Default" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Properties.Settings">
+      <Item value="Norma" priority="5" />
+      <Item value="Save`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="8" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="ToString`0" priority="23" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_AceroDataTable">
+      <Item value="FillName`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_NormaDataTable">
+      <Item value="FindByidnorma`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_NormaRow">
+      <Item value="namenorma" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.DSDatos">
+      <Item value="T_AceroRow`0" priority="5" />
+      <Item value="T_CurvaRow`0" priority="2" />
+      <Item value="T_TipoMaterialRow`0" priority="0" />
+      <Item value="T_CapacidadDeslozeRow`0" priority="1" />
+      <Item value="T_MedioEnfriamientoRow`0" priority="0" />
+      <Item value="T_TipoPropiedadSolRow`0" priority="1" />
+      <Item value="T_TratamientoRow`0" priority="5" />
+      <Item value="T_MaterialRow`0" priority="0" />
+      <Item value="T_Tanque`0" priority="0" />
+      <Item value="DeterminarTTRow`0" priority="0" />
+      <Item value="DeterminarTTDataTable`0" priority="0" />
+      <Item value="T_TipoTratamientoRow`0" priority="0" />
+      <Item value="T_ConstanteRow`0" priority="0" />
+      <Item value="T_ElementoRow`0" priority="0" />
+      <Item value="T_NormaRow`0" priority="0" />
+      <Item value="AceroPredecRow`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_AceroRow">
+      <Item value="GetT_AceroNormaRows`0" priority="0" />
+      <Item value="nameacero" priority="1" />
+      <Item value="idacero" priority="2" />
+      <Item value="IsHipo`0" priority="0" />
+      <Item value="GetT_AceroPuntoRows`0" priority="0" />
+      <Item value="GetT_TratamientoRows`0" priority="0" />
+      <Item value="GetT_CurvaRows`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_AceroNormaRow">
+      <Item value="idnorma" priority="0" />
+      <Item value="valor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_SeparacionPiezaTableAdapter">
+      <Item value="Update`0" priority="0" />
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.BindingSource">
+      <Item value="Current" priority="6" />
+      <Item value="Add`0" priority="1" />
+      <Item value="AddNew`0" priority="1" />
+      <Item value="MoveFirst`0" priority="0" />
+      <Item value="MoveNext`0" priority="0" />
+      <Item value="EndEdit`0" priority="5" />
+      <Item value="Filter" priority="2" />
+      <Item value="SyncRoot" priority="0" />
+      <Item value="Position" priority="0" />
+      <Item value="Find`0" priority="1" />
+      <Item value="DataSource" priority="8" />
+      <Item value="ResetBindings`0" priority="5" />
+      <Item value="Clear`0" priority="0" />
+      <Item value="DataMember" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_CurvaDataTable">
+      <Item value="NewT_CurvaRow`0" priority="0" />
+      <Item value="AddT_CurvaRow`0" priority="0" />
+      <Item value="AcceptChanges`0" priority="0" />
+      <Item value="HasErrors" priority="0" />
+      <Item value="DefaultView" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_CurvaRow">
+      <Item value="idacero" priority="1" />
+      <Item value="idtipocurva" priority="0" />
+      <Item value="inicio" priority="0" />
+      <Item value="AcceptChanges`0" priority="0" />
+      <Item value="RowState" priority="0" />
+      <Item value="idcurva" priority="0" />
+      <Item value="datacurva" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowView">
+      <Item value="Row" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_CurvaTableAdapter">
+      <Item value="Update`0" priority="2" />
+      <Item value="Insert`0" priority="0" />
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_CurvaValorTableAdapter">
+      <Item value="Update`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataView">
+      <Item value="FindRows`0" priority="0" />
+      <Item value="Sort" priority="2" />
+      <Item value="Find`0" priority="2" />
+      <Item value="RowFilter" priority="3" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Graficos.FrmImportGrafico">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraCharts.ChartControl">
+      <Item value="Series" priority="13" />
+      <Item value="Diagram" priority="0" />
+      <Item value="Legend" priority="0" />
+      <Item value="ExportToImage`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraCharts.Series">
+      <Item value="Points" priority="1" />
+      <Item value="View" priority="2" />
+      <Item value="Tag" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraCharts.SeriesPointCollection">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.MouseEventArgs">
+      <Item value="X" priority="0" />
+      <Item value="Y" priority="0" />
+      <Item value="Location" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="46" />
+      <Item value="Insert`0" priority="1" />
+      <Item value="CopyTo`0" priority="0" />
+      <Item value="Clear`0" priority="2" />
+      <Item value="ToArray`0" priority="2" />
+      <Item value="IndexOf`0" priority="1" />
+      <Item value="Count" priority="4" />
+      <Item value="Sort`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_HornoRow">
+      <Item value="Evaluate`0" priority="1" />
+      <Item value="idhorno" priority="0" />
+      <Item value="namehorno" priority="0" />
+      <Item value="Largo" priority="0" />
+      <Item value="Ancho_Diametro" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.TextEdit">
+      <Item value="EditValue" priority="15" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_CapacidadDeslozeTableAdapter">
+      <Item value="Update`0" priority="0" />
+      <Item value="Fill`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_CapacidadCalorificaTableAdapter">
+      <Item value="Update`0" priority="0" />
+      <Item value="Fill`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_TipoMaterialDataTable">
+      <Item value="FindByidtipomaterial`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_CapacidadCalorificaRow">
+      <Item value="GetT_CapacidadDeslozeRows`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_CapacidadDeslozeRow">
+      <Item value="temperatura" priority="6" />
+      <Item value="valor" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.AMath">
+      <Item value="Interpolation`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Math">
+      <Item value="Abs`0" priority="7" />
+      <Item value="Sqrt`0" priority="1" />
+      <Item value="PI" priority="5" />
+      <Item value="Acos`0" priority="0" />
+      <Item value="Pow`0" priority="29" />
+      <Item value="Round`0" priority="5" />
+      <Item value="E" priority="6" />
+      <Item value="Log`0" priority="5" />
+      <Item value="Log10`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.DXErrorProvider.DXValidationProvider">
+      <Item value="Validate`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACINOX.Functions.Validation">
+      <Item value="IsNum`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.KeyEventArgs">
+      <Item value="KeyCode" priority="0" />
+      <Item value="KeyData" priority="0" />
+      <Item value="SuppressKeyPress" priority="0" />
+      <Item value="KeyValue" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:MaxMin.UCReport">
+      <Item value="LoadFromFile`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2">
+      <Item value="Count" priority="1" />
+      <Item value="Keys" priority="5" />
+      <Item value="Values" priority="1" />
+      <Item value="Add`0" priority="23" />
+      <Item value="ContainsKey`0" priority="15" />
+      <Item value="Remove`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraReports.Parameters.Parameter">
+      <Item value="Description" priority="0" />
+      <Item value="Value" priority="2" />
+      <Item value="Name" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Application">
+      <Item value="StartupPath" priority="0" />
+      <Item value="Exit`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Reportes.FrmReporte">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="ucReport1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraReports.UI.XtraReport">
+      <Item value="Padding" priority="1" />
+      <Item value="Parameters" priority="2" />
+      <Item value="RequestParameters" priority="0" />
+      <Item value="PrintingSystem" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraReports.Parameters.ParameterCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraTreeList.Nodes.TreeListNode">
+      <Item value="Level" priority="0" />
+      <Item value="GetValue`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.PopupContainerEdit">
+      <Item value="EditValue" priority="0" />
+      <Item value="ClosePopup`0" priority="0" />
+      <Item value="Text" priority="0" />
+      <Item value="Tag" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.GridLookUpEdit">
+      <Item value="EditValue" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.LabelControl">
+      <Item value="Text" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Single">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.ComboBoxEdit">
+      <Item value="Properties" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Repository.RepositoryItemComboBox">
+      <Item value="Items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Controls.ComboBoxItemCollection">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.CalculateHelper">
+      <Item value="VolumenLiquidoAContenerTanque`0" priority="0" />
+      <Item value="VolumenLiquidoEmpujado`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_TipoMaterialRow">
+      <Item value="CapacidadCalorifica`0" priority="0" />
+      <Item value="nametipomaterial" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_MedioEnfriamientoRow">
+      <Item value="CapacidadCalorifica`0" priority="0" />
+      <Item value="idmedioenf" priority="1" />
+      <Item value="namemedioenf" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Double">
+      <Item value="Parse`0" priority="3" />
+      <Item value="MaxValue" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Single">
+      <Item value="Parse`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_MedioEnfriamientoDataTable">
+      <Item value="FindByidmedioenf`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PictureBox">
+      <Item value="Image" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Image">
+      <Item value="Save`0" priority="2" />
+      <Item value="RotateFlip`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.ImageFormat">
+      <Item value="Bmp" priority="0" />
+      <Item value="Png" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.MemoryStream">
+      <Item value="ToArray`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Graphics">
+      <Item value="FromImage`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Graphics">
+      <Item value="DrawString`0" priority="0" />
+      <Item value="DrawLine`0" priority="3" />
+      <Item value="TextRenderingHint" priority="0" />
+      <Item value="RotateTransform`0" priority="0" />
+      <Item value="Save`0" priority="0" />
+      <Item value="ReleaseHdc`0" priority="0" />
+      <Item value="Flush`0" priority="0" />
+      <Item value="DrawPath`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Brushes">
+      <Item value="Black" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Color">
+      <Item value="Beige" priority="0" />
+      <Item value="Black" priority="5" />
+      <Item value="FromArgb`0" priority="1" />
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Bitmap">
+      <Item value="Height" priority="1" />
+      <Item value="Save`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_TratamientoDeslozeTableAdapter">
+      <Item value="Update`0" priority="0" />
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataTable">
+      <Item value="DataSet" priority="0" />
+      <Item value="Columns" priority="6" />
+      <Item value="Rows" priority="5" />
+      <Item value="NewRow`0" priority="2" />
+      <Item value="AcceptChanges`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_TratamientoDataTable">
+      <Item value="DefaultView" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_TratamientoRow">
+      <Item value="GetT_TratamientoDeslozeRows`0" priority="1" />
+      <Item value="T_TipoTratamientoRow" priority="0" />
+      <Item value="tempmax" priority="0" />
+      <Item value="tempmin" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_TratamientoDeslozeRow">
+      <Item value="T_TipoPropiedadSolRow" priority="1" />
+      <Item value="valormax" priority="1" />
+      <Item value="T_TratamientoRow" priority="0" />
+      <Item value="valormin" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.DSDatos+T_Tanque">
+      <Item value="CalculateCircular`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_TipoTratamientoTableAdapter">
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+DeterminarTTDataTable">
+      <Item value="Count" priority="0" />
+      <Item value="NewDeterminarTTRow`0" priority="1" />
+      <Item value="AddDeterminarTTRow`0" priority="0" />
+      <Item value="AcceptChanges`0" priority="0" />
+      <Item value="DataSet" priority="0" />
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+DeterminarTTRow">
+      <Item value="acero" priority="2" />
+      <Item value="tipotratamiento" priority="0" />
+      <Item value="propiedadsel" priority="0" />
+      <Item value="propmax" priority="0" />
+      <Item value="propmin" priority="0" />
+      <Item value="tempmax" priority="0" />
+      <Item value="tempmin" priority="0" />
+      <Item value="valor" priority="0" />
+      <Item value="temptemple" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_TipoTratamientoRow">
+      <Item value="idtratamiento" priority="1" />
+      <Item value="nametratamiento" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_TipoPropiedadSolRow">
+      <Item value="nametipopropiedad" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Point">
+      <Item value="X" priority="30" />
+      <Item value="Y" priority="19" />
+      <Item value="IsEmpty" priority="8" />
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Cursor">
+      <Item value="Position" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.PaintEventArgs">
+      <Item value="Graphics" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Pen">
+      <Item value="Width" priority="0" />
+      <Item value="Color" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.FrmAxeManager">
+      <Item value="SaveToAxe`0" priority="0" />
+      <Item value="OnAceptar" priority="0" />
+      <Item value="OnCancelar" priority="0" />
+      <Item value="Axe" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Axe">
+      <Item value="SelectColor" priority="1" />
+      <Item value="RealPointFinal" priority="0" />
+      <Item value="RealPointInitial" priority="2" />
+      <Item value="Draw`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.ColorEdit">
+      <Item value="EditValue" priority="3" />
+      <Item value="Color" priority="2" />
+      <Item value="Properties" priority="0" />
+      <Item value="RefreshEditValue`0" priority="0" />
+      <Item value="Refresh`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Form2">
+      <Item value="bindingSource1" priority="1" />
+      <Item value="dataGridView1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.UCGraphControl">
+      <Item value="Axes" priority="1" />
+      <Item value="State" priority="14" />
+      <Item value="ReturnPoint" priority="2" />
+      <Item value="Refresh`0" priority="4" />
+      <Item value="Point" priority="0" />
+      <Item value="InvokeOnPointButtonClick`0" priority="1" />
+      <Item value="InvokeOnPointChange`0" priority="1" />
+      <Item value="OnPointButtonClick" priority="1" />
+      <Item value="OnStateChange" priority="0" />
+      <Item value="OnPointChange" priority="0" />
+      <Item value="ManagingAxe" priority="2" />
+      <Item value="ChangeState`0" priority="1" />
+      <Item value="Update`0" priority="0" />
+      <Item value="ManagingSerie" priority="1" />
+      <Item value="GetColors`0" priority="0" />
+      <Item value="GraphObject" priority="15" />
+      <Item value="UseOrtogonal" priority="0" />
+      <Item value="LineWidth" priority="1" />
+      <Item value="ImageController" priority="1" />
+      <Item value="SaveToFile`0" priority="0" />
+      <Item value="SaveToStream`0" priority="0" />
+      <Item value="LoadFromFile`0" priority="0" />
+      <Item value="LoadFromStream`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraGrid.Views.Grid.GridView">
+      <Item value="Columns" priority="9" />
+      <Item value="FocusedRowHandle" priority="1" />
+      <Item value="RefreshData`0" priority="0" />
+      <Item value="GetRow`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraGrid.Columns.GridColumnCollection">
+      <Item value="Clear`0" priority="1" />
+      <Item value="Add`0" priority="1" />
+      <Item value="Count" priority="0" />
+      <Item value="RemoveAt`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraBars.BarStaticItem">
+      <Item value="Caption" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Cursors">
+      <Item value="Cross" priority="0" />
+      <Item value="Default" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.SpinEdit">
+      <Item value="EditValue" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.PointEditItem">
+      <Item value="Point" priority="8" />
+      <Item value="OnButtonClick" priority="4" />
+      <Item value="OnChange" priority="4" />
+      <Item value="Data" priority="8" />
+      <Item value="TabIndex" priority="0" />
+      <Item value="Tag" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.Axe">
+      <Item value="RealPointInitial" priority="6" />
+      <Item value="RealPointFinal" priority="8" />
+      <Item value="Color" priority="1" />
+      <Item value="Name" priority="2" />
+      <Item value="UM" priority="0" />
+      <Item value="ValueMax" priority="2" />
+      <Item value="ValueMin" priority="1" />
+      <Item value="Scale" priority="0" />
+      <Item value="Control" priority="3" />
+      <Item value="Points" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.ImageComboBoxEdit">
+      <Item value="EditValue" priority="1" />
+      <Item value="Properties" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraGrid.Columns.GridColumn">
+      <Item value="Name" priority="3" />
+      <Item value="FieldName" priority="1" />
+      <Item value="Caption" priority="1" />
+      <Item value="View" priority="0" />
+      <Item value="Visible" priority="0" />
+      <Item value="AbsoluteIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.GraphState">
+      <Item value="WaitingForClick" priority="1" />
+      <Item value="ManagingStartPoint" priority="3" />
+      <Item value="ManagingAxe" priority="0" />
+      <Item value="EndManagingAxe" priority="2" />
+      <Item value="Ready" priority="2" />
+      <Item value="ManagingSeriePoints" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.SimpleButton">
+      <Item value="Parent" priority="0" />
+      <Item value="Enabled" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Image">
+      <Item value="FromFile`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.AxePointList">
+      <Item value="Generate`0" priority="0" />
+      <Item value="Axe" priority="0" />
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.FrmEditPoint">
+      <Item value="PointToClient`0" priority="0" />
+      <Item value="Show`0" priority="0" />
+      <Item value="pointEditItem1" priority="2" />
+      <Item value="OnAceptar" priority="0" />
+      <Item value="OnCancelar" priority="0" />
+      <Item value="Point" priority="1" />
+      <Item value="DisplayRectangle" priority="0" />
+      <Item value="ClientRectangle" priority="0" />
+      <Item value="Location" priority="0" />
+      <Item value="Clicked" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraLayout.LayoutControl">
+      <Item value="Enabled" priority="0" />
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.AxePoint">
+      <Item value="PointList" priority="0" />
+      <Item value="Point" priority="1" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.FrmManageSerie">
+      <Item value="Show`0" priority="0" />
+      <Item value="Control" priority="0" />
+      <Item value="Serie" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.Serie">
+      <Item value="Points" priority="22" />
+      <Item value="Color" priority="5" />
+      <Item value="Name" priority="8" />
+      <Item value="Marca" priority="0" />
+      <Item value="MaxValue" priority="0" />
+      <Item value="MaxPoint" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.ImageController">
+      <Item value="LoadFromFile`0" priority="0" />
+      <Item value="Rotation" priority="1" />
+      <Item value="OnChangeImage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.ButtonBottomArgs">
+      <Item value="Cerrar" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.SeriePoint">
+      <Item value="SelectColor" priority="0" />
+      <Item value="Selected" priority="1" />
+      <Item value="Point" priority="19" />
+      <Item value="Params" priority="4" />
+      <Item value="PointList" priority="3" />
+      <Item value="GetValue`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.SeriePointList">
+      <Item value="Draw`0" priority="0" />
+      <Item value="IndexOf`0" priority="1" />
+      <Item value="Count" priority="6" />
+      <Item value="TempPoint" priority="5" />
+      <Item value="ClearSelected`0" priority="0" />
+      <Item value="Add`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.GraphPoint">
+      <Item value="Selected" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraBars.Docking.DockPanel">
+      <Item value="Visibility" priority="0" />
+      <Item value="Text" priority="1" />
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DevExpress.XtraBars.Docking.DockVisibility">
+      <Item value="Hidden" priority="2" />
+      <Item value="Visible" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.XtraUserControl">
+      <Item value="Dock" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Control+ControlCollection">
+      <Item value="Remove`0" priority="0" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraLayout.LayoutControlItem">
+      <Item value="Visible" priority="0" />
+      <Item value="Text" priority="3" />
+      <Item value="Visibility" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Color">
+      <Item value="R" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.FrmPointFromAxe">
+      <Item value="List" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Axe" priority="0" />
+      <Item value="Control" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphicObject">
+      <Item value="Axes" priority="0" />
+      <Item value="Axiss" priority="13" />
+      <Item value="Series" priority="6" />
+      <Item value="CreateData`0" priority="0" />
+      <Item value="Point" priority="1" />
+      <Item value="ImageController" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Repository.RepositoryItemImageComboBox">
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Controls.ImageComboBoxItemCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Controls.ImageComboBoxItem">
+      <Item value="Description" priority="0" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.GraphControl.AxisOrientation">
+      <Item value="Horizontal" priority="1" />
+      <Item value="Vertical" priority="2" />
+      <Item value="Unknow" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.AxisPoint">
+      <Item value="Point" priority="19" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.AxisPointList">
+      <Item value="IndexOf`0" priority="1" />
+      <Item value="Count" priority="2" />
+      <Item value="Sort`0" priority="0" />
+      <Item value="CopyTo`0" priority="0" />
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.GraphControl.AxisValueOrientation">
+      <Item value="Unknown" priority="0" />
+      <Item value="FrontToBack" priority="5" />
+      <Item value="BackToFront" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.AxisList">
+      <Item value="GetValueFromPoint`0" priority="2" />
+      <Item value="Count" priority="1" />
+      <Item value="GetValueFromPointTable`0" priority="0" />
+      <Item value="Add`0" priority="1" />
+      <Item value="GetPrincipals`0" priority="0" />
+      <Item value="ItemsByName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Rectangle">
+      <Item value="Contains`0" priority="0" />
+      <Item value="Width" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.Axis">
+      <Item value="Orientation" priority="1" />
+      <Item value="ValueOrientation" priority="2" />
+      <Item value="Name" priority="4" />
+      <Item value="ValueFromPoint`0" priority="5" />
+      <Item value="UM" priority="0" />
+      <Item value="ValueMin" priority="0" />
+      <Item value="RealPointFinal" priority="0" />
+      <Item value="RealPointInitial" priority="0" />
+      <Item value="Scale" priority="1" />
+      <Item value="ValueMax" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraGrid.Views.Base.RowCellCustomDrawEventArgs">
+      <Item value="RowHandle" priority="1" />
+      <Item value="CellValue" priority="0" />
+      <Item value="Column" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Controls.CustomDisplayTextEventArgs">
+      <Item value="DisplayText" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraGrid.GridControl">
+      <Item value="FocusedView" priority="1" />
+      <Item value="Enabled" priority="0" />
+      <Item value="RefreshDataSource`0" priority="0" />
+      <Item value="DataSource" priority="0" />
+      <Item value="ExportToCsv`0" priority="0" />
+      <Item value="ShowPrintPreview`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DevExpress.XtraCharts.ViewType">
+      <Item value="Spline" priority="0" />
+      <Item value="ScatterLine" priority="0" />
+      <Item value="StepLine" priority="0" />
+      <Item value="Pie" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.OpenFileDialog">
+      <Item value="ShowDialog`0" priority="1" />
+      <Item value="FileName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.DialogResult">
+      <Item value="OK" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DevExpress.XtraEditors.XtraMessageBox">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.SerieList">
+      <Item value="Clear`0" priority="0" />
+      <Item value="ClearSelected`0" priority="0" />
+      <Item value="Count" priority="2" />
+      <Item value="Add`0" priority="3" />
+      <Item value="ByName`0" priority="4" />
+      <Item value="GetSerieCreate`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.Utils.ToolTipController">
+      <Item value="HideHint`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumnCollection">
+      <Item value="Add`0" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRowCollection">
+      <Item value="Add`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataRow">
+      <Item value="ItemArray" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.DataColumn">
+      <Item value="ColumnName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.ParameterList">
+      <Item value="CopyTo`0" priority="1" />
+      <Item value="Clear`0" priority="0" />
+      <Item value="AsDataTable`0" priority="0" />
+      <Item value="CopyFromDataTable`0" priority="0" />
+      <Item value="IndexOfByName`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.Parameter">
+      <Item value="Name" priority="7" />
+      <Item value="UM" priority="1" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DevExpress.XtraLayout.Utils.LayoutVisibility">
+      <Item value="Always" priority="3" />
+      <Item value="Never" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.SaveFileDialog">
+      <Item value="ShowDialog`0" priority="1" />
+      <Item value="FileName" priority="4" />
+      <Item value="Filter" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.RotateFlipType">
+      <Item value="TryParse`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.ZoomTrackBarControl">
+      <Item value="Properties" priority="1" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Repository.RepositoryItemZoomTrackBar">
+      <Item value="Minimum" priority="0" />
+      <Item value="Maximum" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Repository.RepositoryItemTrackBar">
+      <Item value="Maximum" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.TrackBarControl">
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.GraphControl.UCImageController">
+      <Item value="Enabled" priority="0" />
+      <Item value="Controller" priority="1" />
+      <Item value="OnChangeImage" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Prediccion.FrmCurveEdit">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="DataBindings" priority="0" />
+      <Item value="data" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.UCGraphDesigner">
+      <Item value="GraphObject" priority="0" />
+      <Item value="SaveToStream`0" priority="0" />
+      <Item value="LoadFromStream`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.ButtonEdit">
+      <Item value="EditValue" priority="1" />
+      <Item value="Tag" priority="1" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.Prediccion.PreditionAlgorithm">
+      <Item value="IntegralK`0" priority="0" />
+      <Item value="Calculate`0" priority="0" />
+      <Item value="Properties`0" priority="5" />
+      <Item value="CalculatedPointList`0" priority="0" />
+      <Item value="PredictSeries`0" priority="0" />
+      <Item value="CalculatedPoint`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+AceroPredecDataTable">
+      <Item value="Clear`0" priority="0" />
+      <Item value="AcceptChanges`0" priority="0" />
+      <Item value="DefaultView" priority="0" />
+      <Item value="PausibleCurves`0" priority="0" />
+      <Item value="AsDictionary`0" priority="0" />
+      <Item value="FillNames`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_AceroElementoRow">
+      <Item value="valorfinal" priority="0" />
+      <Item value="valorinicial" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_AceroTipoPuntoTableAdapter">
+      <Item value="Update`0" priority="0" />
+      <Item value="Fill`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_AceroPuntoTableAdapter">
+      <Item value="Update`0" priority="1" />
+      <Item value="Fill`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_AceroPuntoFormulaTableAdapter">
+      <Item value="Update`0" priority="0" />
+      <Item value="Fill`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Prediccion.FrmChooseFormula">
+      <Item value="Value" priority="0" />
+      <Item value="Pto" priority="0" />
+      <Item value="CalG" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_AceroPuntoRow">
+      <Item value="T_AceroTipoPuntoRow" priority="0" />
+      <Item value="valor" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_AceroTipoPuntoRow">
+      <Item value="nametipopunto" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:NCalc.Expression">
+      <Item value="Evaluate`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Replace`0" priority="3" />
+      <Item value="Length" priority="2" />
+      <Item value="IndexOf`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.KeyValuePair`2">
+      <Item value="Key" priority="1" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_ElementoRow">
+      <Item value="codelemento" priority="8" />
+      <Item value="nameelemento" priority="1" />
+      <Item value="CancelEdit`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_ElementoDataTable">
+      <Item value="DefaultView" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+AceroPredecRow">
+      <Item value="T_ElementoRow" priority="8" />
+      <Item value="valor" priority="2" />
+      <Item value="nameelemento" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.CheckedListBoxControl">
+      <Item value="CheckedItems" priority="0" />
+      <Item value="Items" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Controls.CheckedListBoxItem">
+      <Item value="CheckState" priority="1" />
+      <Item value="Description" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Controls.CheckedListBoxItemCollection">
+      <Item value="IndexOf`0" priority="0" />
+      <Item value="Indexer" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatosTableAdapters.T_ConstanteTableAdapter">
+      <Item value="Fill`0" priority="0" />
+      <Item value="Update`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_ConstanteRow">
+      <Item value="nameconstante" priority="1" />
+      <Item value="valorconst" priority="1" />
+      <Item value="Value`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_FormulaDataTable">
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.Strings">
+      <Item value="OrderDictionary`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.RadioGroup">
+      <Item value="EditValue" priority="1" />
+      <Item value="Text" priority="0" />
+      <Item value="Properties" priority="1" />
+      <Item value="SelectedIndex" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Prediccion.PreditionAlgorithm+UserAlgorithm">
+      <Item value="CalculateFerrita`0" priority="0" />
+      <Item value="CalculateBainita`0" priority="0" />
+      <Item value="CalculatePerlita`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Prediccion.PreditionAlgorithm+CalculatedPoint">
+      <Item value="Inicial" priority="22" />
+      <Item value="Temp" priority="27" />
+      <Item value="Final" priority="15" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraCharts.SeriesCollection">
+      <Item value="Add`0" priority="2" />
+      <Item value="Clear`0" priority="3" />
+      <Item value="Count" priority="2" />
+      <Item value="ToArray`0" priority="0" />
+      <Item value="RemoveAt`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACINOX.Functions.Math">
+      <Item value="Percent`0" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACINOX.Functions.Math+Percent">
+      <Item value="Percen`0" priority="2" />
+      <Item value="Part`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraCharts.ScatterLineSeriesView">
+      <Item value="LineStyle" priority="1" />
+      <Item value="LineMarkerOptions" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraCharts.LineStyle">
+      <Item value="DashStyle" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Prediccion.PreditionAlgorithm+CalculatedPointList">
+      <Item value="Name" priority="7" />
+      <Item value="Add`0" priority="3" />
+      <Item value="ItemByTemp`0" priority="0" />
+      <Item value="ItemByRange`0" priority="0" />
+      <Item value="Sort`0" priority="0" />
+      <Item value="Count" priority="3" />
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Prediccion.PreditionAlgorithm+PredictSeries">
+      <Item value="SerieByName`0" priority="1" />
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.Dictionary`2+KeyCollection">
+      <Item value="ToArray`1" priority="0" />
+      <Item value="Count" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.Prediccion.PreditionAlgorithm+Properties">
+      <Item value="Ferritico`0" priority="0" />
+      <Item value="PredictionFraccion`0" priority="2" />
+      <Item value="PropertiesCalculated`0" priority="2" />
+      <Item value="Dureza`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.UCGraphControl">
+      <Item value="LoadFromStreamGeneral`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Prediccion.PreditionAlgorithm+Properties+PropertiesCalculated">
+      <Item value="Percents" priority="6" />
+      <Item value="Points" priority="10" />
+      <Item value="PtoInicio" priority="3" />
+      <Item value="GetHashCode`0" priority="0" />
+      <Item value="VelocidadExtraction" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Prediccion.FrmPredictPropiedades">
+      <Item value="Serie" priority="0" />
+      <Item value="ParentPredecir" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraCharts.HotTrackEventArgs">
+      <Item value="Object" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.Charts.Native.SeriesList">
+      <Item value="ToArray`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.Prediccion.PreditionAlgorithm+Properties+Dureza">
+      <Item value="Final`0" priority="0" />
+      <Item value="RokwellC`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@DevExpress.XtraCharts.PointView">
+      <Item value="Argument" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.CheckEdit">
+      <Item value="Checked" priority="1" />
+      <Item value="Enabled" priority="0" />
+      <Item value="TabIndex" priority="0" />
+      <Item value="CheckState" priority="0" />
+      <Item value="Text" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACATTA.Prediccion.FrmPredecir">
+      <Item value="FillChartControl`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.Prediccion.FrmViewPredecir">
+      <Item value="FillChart`0" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="ParentPredecir" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.DSDatos+T_RegimenCalentamientoRow">
+      <Item value="nameregcalent" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@ACINOX.Functions.Skins">
+      <Item value="FillSkins`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraCharts.Marker">
+      <Item value="Size" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ACATTA.FrmMain">
+      <Item value="Show`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Timer">
+      <Item value="Enabled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Repository.RepositoryItemRadioGroup">
+      <Item value="Items" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DevExpress.XtraEditors.Controls.RadioGroupItem">
+      <Item value="Description" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.CheckState">
+      <Item value="Checked" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

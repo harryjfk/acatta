@@ -1,0 +1,94 @@
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\bin\Debug\ACATTA.exe
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\bin\Debug\ACATTA.pdb
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ResolveAssemblyReference.cache
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Properties.Resources.resources
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ResGen.read.1.tlog
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ResGen.write.1.tlog
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.exe
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.pdb
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\bin\Debug\ACATTA.exe.config
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.FrmMain.resources
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\bin\Debug\ACINOX.dll
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\bin\Debug\Infralution.Licensing.dll
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\bin\Debug\ACINOX.pdb
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\GenerateResource.read.1.tlog
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\GenerateResource.write.1.tlog
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Tareas.FrmEvalHorno.resources
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Codificadores.FrmHornos.resources
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Codificadores.FrmMaterial.resources
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Codificadores.FrmTratamiento.resources
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.FrmTipoPieza.resources
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Tareas.FrmCalculoTT.resources
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Codificadores.FrmAcero.resources
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\GenerateResource-ResGen.read.1.tlog
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\GenerateResource-ResGen.read.6.tlog
+c:\users\harry\documents\visual studio 2010\Projects\ACATTA\ACATTA\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Reportes.FrmReporte.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Reportes.XtraReport1.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Tareas.FrmTanque.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Tareas.FrmDeterminarTT.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Reportes.XtraReport1.af-ZA.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\bin\Debug\af-ZA\ACATTA.resources.dll
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\af-ZA\ACATTA.resources.dll
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Form2.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.UCGraphControl.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.UCGraphDesigner.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.GraphControl.UCImageController.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.GraphControl.PointEditItem.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.GraphControl.FrmManageSerie.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.GraphControl.FrmEditPoint.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.GraphControl.FrmAxisManager.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.GraphControl.FrmPointFromAxis.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Prediccion.FrmCurveManager.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Prediccion.FrmCurveEdit.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Prediccion.FrmPredecir.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Codificadores.FrmAcero.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Codificadores.FrmHornos.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Codificadores.FrmMaterial.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Codificadores.FrmTratamiento.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Form2.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.FrmMain.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.GraphControl.FrmAxisManager.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.GraphControl.FrmEditPoint.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.GraphControl.FrmManageSerie.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.GraphControl.FrmPointFromAxis.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.GraphControl.PointEditItem.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.GraphControl.UCImageController.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Prediccion.FrmCurveEdit.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Prediccion.FrmCurveManager.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Prediccion.FrmPredecir.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Tareas.FrmDeterminarTT.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Tareas.FrmTanque.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.UCGraphControl.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.UCGraphDesigner.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.FrmTipoPieza.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Properties.Resources.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Reportes.FrmReporte.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Reportes.XtraReport1.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Tareas.FrmCalculoTT.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Tareas.FrmEvalHorno.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Reportes.XtraReport1.af-ZA.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\bin\Debug\ACATTA.exe.config
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\bin\Debug\ACATTA.exe
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\bin\Debug\ACATTA.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\bin\Debug\af-ZA\ACATTA.resources.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\bin\Debug\ACINOX.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\bin\Debug\Infralution.Licensing.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\bin\Debug\ACINOX.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\af-ZA\ACATTA.resources.dll
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.exe
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.pdb
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Codificadores.FrmFormula.resources
+C:\Documents and Settings\Administrador\Mis documentos\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Prediccion.FrmChooseFormula.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Codificadores.FrmFormula.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Prediccion.FrmChooseFormula.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\bin\Debug\Antlr3.Runtime.dll
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Prediccion.FrmPredictPropiedades.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.Prediccion.FrmViewPredecir.resources
+C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\obj\Debug\ACATTA.FrmWelcome.resources
+D:\Projects\VisualStudio\ACATTA\ACATTA\bin\Debug\ACATTA.exe.config
+D:\Projects\VisualStudio\ACATTA\ACATTA\obj\Debug\ACATTA.exe
+D:\Projects\VisualStudio\ACATTA\ACATTA\obj\Debug\ACATTA.pdb

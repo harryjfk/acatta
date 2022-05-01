@@ -1,0 +1,491 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{38259277-1F1A-4825-8DA0-C667CD2A42E2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ACATTA</RootNamespace>
+    <AssemblyName>ACATTA</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>acatta.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Charts.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.PivotGrid.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Office.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.RichEdit.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.1.Wizard, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.1.Extensions, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraCharts.v14.1.UI, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPivotGrid.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v14.1.Core, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v14.1.UI, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.DataAccess.v14.1.UI, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Xpo.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v14.1.Extensions, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraReports.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraTreeList.v14.1, Version=14.1.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="NCalc, Version=1.3.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\NCalc.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalculateHelper.cs" />
+    <Compile Include="Codificadores\FrmAcero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Codificadores\FrmAcero.Designer.cs">
+      <DependentUpon>FrmAcero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Codificadores\FrmFormula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Codificadores\FrmFormula.Designer.cs">
+      <DependentUpon>FrmFormula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Codificadores\FrmHornos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Codificadores\FrmHornos.Designer.cs">
+      <DependentUpon>FrmHornos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Codificadores\FrmMaterial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Codificadores\FrmMaterial.Designer.cs">
+      <DependentUpon>FrmMaterial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Codificadores\FrmTratamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Codificadores\FrmTratamiento.Designer.cs">
+      <DependentUpon>FrmTratamiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSDatos.cs">
+      <DependentUpon>DSDatos.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DSDatos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSDatos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Codificadores\FrmTipoPieza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Codificadores\FrmTipoPieza.Designer.cs">
+      <DependentUpon>FrmTipoPieza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmWelcome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmWelcome.Designer.cs">
+      <DependentUpon>FrmWelcome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphControl\Axe.cs" />
+    <Compile Include="GraphControl\DSGraphControl.cs">
+      <DependentUpon>DSGraphControl.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GraphControl\DSGraphControl.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DSGraphControl.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GraphControl\FrmAxeManager.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GraphControl\FrmAxeManager.Designer.cs">
+      <DependentUpon>FrmAxeManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphControl\FrmEditPoint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphControl\FrmEditPoint.Designer.cs">
+      <DependentUpon>FrmEditPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphControl\FrmManageSerie.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GraphControl\FrmManageSerie.Designer.cs">
+      <DependentUpon>FrmManageSerie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphControl\FrmPointFromAxe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GraphControl\FrmPointFromAxe.Designer.cs">
+      <DependentUpon>FrmPointFromAxe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphControl\Point.cs" />
+    <Compile Include="GraphControl\PointEditItem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GraphControl\PointEditItem.Designer.cs">
+      <DependentUpon>PointEditItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphControl\Serie.cs" />
+    <Compile Include="GraphControl\UCImageController.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GraphControl\UCImageController.Designer.cs">
+      <DependentUpon>UCImageController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person.cs" />
+    <Compile Include="Prediccion\FrmChooseFormula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prediccion\FrmChooseFormula.Designer.cs">
+      <DependentUpon>FrmChooseFormula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prediccion\FrmCurveEdit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prediccion\FrmCurveEdit.Designer.cs">
+      <DependentUpon>FrmCurveEdit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prediccion\FrmCurveManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prediccion\FrmCurveManager.Designer.cs">
+      <DependentUpon>FrmCurveManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prediccion\FrmPredecir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prediccion\FrmPredecir.Designer.cs">
+      <DependentUpon>FrmPredecir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prediccion\FrmPredictPropiedades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prediccion\FrmPredictPropiedades.Designer.cs">
+      <DependentUpon>FrmPredictPropiedades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prediccion\FrmViewPredecir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prediccion\FrmViewPredecir.Designer.cs">
+      <DependentUpon>FrmViewPredecir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prediccion\PreditionAlgorithm.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reportes\FrmReporte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reportes\FrmReporte.Designer.cs">
+      <DependentUpon>FrmReporte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\XtraReport1.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\XtraReport1.Designer.cs">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tareas\FrmCalculateWeight.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tareas\FrmCalculateWeight.Designer.cs">
+      <DependentUpon>FrmCalculateWeight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tareas\FrmCalculoTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tareas\FrmCalculoTT.Designer.cs">
+      <DependentUpon>FrmCalculoTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tareas\FrmDeterminarTT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tareas\FrmDeterminarTT.Designer.cs">
+      <DependentUpon>FrmDeterminarTT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tareas\FrmEvalHorno.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tareas\FrmEvalHorno.Designer.cs">
+      <DependentUpon>FrmEvalHorno.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tareas\FrmTanque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tareas\FrmTanque.Designer.cs">
+      <DependentUpon>FrmTanque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphControl\UCGraphControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GraphControl\UCGraphControl.Designer.cs">
+      <DependentUpon>UCGraphControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GraphControl\UCGraphDesigner.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GraphControl\UCGraphDesigner.Designer.cs">
+      <DependentUpon>UCGraphDesigner.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Codificadores\FrmAcero.resx">
+      <DependentUpon>FrmAcero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Codificadores\FrmFormula.resx">
+      <DependentUpon>FrmFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Codificadores\FrmHornos.resx">
+      <DependentUpon>FrmHornos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Codificadores\FrmMaterial.resx">
+      <DependentUpon>FrmMaterial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Codificadores\FrmTratamiento.resx">
+      <DependentUpon>FrmTratamiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmWelcome.resx">
+      <DependentUpon>FrmWelcome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphControl\FrmAxeManager.resx">
+      <DependentUpon>FrmAxeManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphControl\FrmEditPoint.resx">
+      <DependentUpon>FrmEditPoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphControl\FrmManageSerie.resx">
+      <DependentUpon>FrmManageSerie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphControl\FrmPointFromAxe.resx">
+      <DependentUpon>FrmPointFromAxe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphControl\PointEditItem.resx">
+      <DependentUpon>PointEditItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphControl\UCImageController.resx">
+      <DependentUpon>UCImageController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prediccion\FrmChooseFormula.resx">
+      <DependentUpon>FrmChooseFormula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prediccion\FrmCurveEdit.resx">
+      <DependentUpon>FrmCurveEdit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prediccion\FrmCurveManager.resx">
+      <DependentUpon>FrmCurveManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prediccion\FrmPredecir.resx">
+      <DependentUpon>FrmPredecir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prediccion\FrmPredictPropiedades.resx">
+      <DependentUpon>FrmPredictPropiedades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prediccion\FrmViewPredecir.resx">
+      <DependentUpon>FrmViewPredecir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraReport1.af-ZA.resx">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tareas\FrmDeterminarTT.resx">
+      <DependentUpon>FrmDeterminarTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tareas\FrmTanque.resx">
+      <DependentUpon>FrmTanque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphControl\UCGraphControl.resx">
+      <DependentUpon>UCGraphControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GraphControl\UCGraphDesigner.resx">
+      <DependentUpon>UCGraphDesigner.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="GraphControl\DSGraphControl.xsc">
+      <DependentUpon>DSGraphControl.xsd</DependentUpon>
+    </None>
+    <None Include="GraphControl\DSGraphControl.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSGraphControl.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="GraphControl\DSGraphControl.xss">
+      <DependentUpon>DSGraphControl.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Codificadores\FrmTipoPieza.resx">
+      <DependentUpon>FrmTipoPieza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Reportes\FrmReporte.resx">
+      <DependentUpon>FrmReporte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\XtraReport1.resx">
+      <DependentUpon>XtraReport1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tareas\FrmCalculoTT.resx">
+      <DependentUpon>FrmCalculoTT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tareas\FrmEvalHorno.resx">
+      <DependentUpon>FrmEvalHorno.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="DSDatos.xsc">
+      <DependentUpon>DSDatos.xsd</DependentUpon>
+    </None>
+    <None Include="DSDatos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DSDatos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DSDatos.xss">
+      <DependentUpon>DSDatos.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ACINOX Components\ACINOX Components\ACINOX.csproj">
+      <Project>{B50DAE58-F5B9-48FD-91CA-D7BC07E40D67}</Project>
+      <Name>ACINOX</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Graficos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="acatta.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

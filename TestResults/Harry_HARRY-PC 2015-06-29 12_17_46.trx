@@ -1,0 +1,1206 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7a93978b-e36a-466d-8ece-45cd5e37d414" name="Harry@HARRY-PC 2015-06-29 12:17:46" runUser="Harry-PC\Harry" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="3a8721de-705a-4374-9850-7f34132ea34a">
+    <Description>Esta es la configuración de pruebas predeterminada para una ejecución de pruebas local.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Harry_HARRY-PC 2015-06-29 12_17_46">
+      <DeploymentItem filename="C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\bin\Debug\ACATTA.exe" />
+      <DeploymentItem filename="C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACATTA\ACATTA\bin\Debug\NCalc.dll" />
+      <DeploymentItem filename="C:\Users\Harry\Documents\Visual Studio 2010\Projects\ACINOX Components\ACINOX Components\bin\Debug\ACINOX.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-06-29T12:17:46.5065257-04:00" queuing="2015-06-29T12:17:48.0026112-04:00" start="2015-06-29T12:17:48.4806386-04:00" finish="2015-06-29T12:17:59.4072635-04:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="139" executed="3" passed="1" error="1" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="136" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="HARRY-PC" outcome="Warning" timestamp="2015-06-29T12:17:46.5415277-04:00">
+        <Text>La implementación está deshabilitada. No se implementó el elemento  'ACATTA.exe' en la prueba 'TestProject1.FrmPredecirTest.IsValidTest'.</Text>
+      </RunInfo>
+      <RunInfo computerName="HARRY-PC" outcome="Error" timestamp="2015-06-29T12:17:59.3962629-04:00">
+        <Text>El proceso del host de pruebas terminó inesperadamente.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="IsValidTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="0c27790d-8690-1051-8bbd-ca0c872228fd">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="23273ba7-cf99-4417-9585-acaf886200ca" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidTest" />
+    </UnitTest>
+    <UnitTest name="ItemByTempTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="9fc4291f-8d55-a5f8-646a-071f2ee087c6">
+      <Execution id="54843724-d165-40dc-990a-af887b93a363" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_CalculatedPointListTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ItemByTempTest" />
+    </UnitTest>
+    <UnitTest name="GetTempTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="f512c401-8c00-2ce7-cd75-2cef892b7306">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="5cde8407-9172-4c1a-b9db-8ed319d9f5c8" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PropertiesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetTempTest" />
+    </UnitTest>
+    <UnitTest name="checkEdit1_ClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="348d3408-c6d7-7d82-0daa-660ea6e73c94">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="eb4f4398-310c-4b66-b202-e2867a39c2b4" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkEdit1_ClickTest" />
+    </UnitTest>
+    <UnitTest name="PtoTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="f3e94051-41de-6010-09ae-e48a106f08cb">
+      <Execution id="95ad15ee-73ad-4b22-9e5f-dc921fd92c84" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmChooseFormulaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PtoTest" />
+    </UnitTest>
+    <UnitTest name="TPTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="54b9aa75-f246-ebf6-d95f-255b21d02b8c">
+      <Execution id="fb0d7f2c-126c-4140-a8b1-724421076024" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_KirkaldyAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TPTest" />
+    </UnitTest>
+    <UnitTest name="FerriticoTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="150ede27-3570-6391-8b5d-bf5ade7147e6">
+      <Execution id="fad8391e-eacb-4a36-ac7a-85c2ec9c9ef3" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PropertiesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FerriticoTest" />
+    </UnitTest>
+    <UnitTest name="F_TransformadaTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="db049736-87f7-86db-95f7-7a4a94647674">
+      <Execution id="7d6b4f81-3df3-4caa-8081-a5c88793020d" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PropertiesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="F_TransformadaTest" />
+    </UnitTest>
+    <UnitTest name="FrmViewPredecirConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="a2826667-359b-86c8-bada-032140598d97">
+      <Execution id="b7488701-9a82-4fec-bee5-66c4b66aeb24" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmViewPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FrmViewPredecirConstructorTest" />
+    </UnitTest>
+    <UnitTest name="FinalTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="ac9f6193-48ba-7acb-5434-94b53837771f">
+      <Execution id="49ef5e00-25dd-4050-8143-8f7ba6c67842" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_CalculatedPointTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FinalTest" />
+    </UnitTest>
+    <UnitTest name="teTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="451b7c0e-199e-b432-6664-c9907294c2c0">
+      <Execution id="400889d7-04e9-49de-8dc2-cf9410ddd43c" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="teTest" />
+    </UnitTest>
+    <UnitTest name="ucPieFormulario1_AceptarTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="7b849a06-269e-7a2c-c495-bfd6c450cf6f">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="e33ccfe3-0ef7-4719-947b-445123142904" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmCurveEditTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ucPieFormulario1_AceptarTest" />
+    </UnitTest>
+    <UnitTest name="GetByTempTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="8bb683a5-82e4-9611-3399-0a8b3e173862">
+      <Execution id="da277a32-df16-462c-85eb-c35b2b15164a" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_CalculatedPointListTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetByTempTest" />
+    </UnitTest>
+    <UnitTest name="IntegralKTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="d8dc32de-3671-88e1-cc72-75456546d6ca">
+      <Execution id="d7ce1e92-a728-462e-a269-71e21ff6867a" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IntegralKTest" />
+    </UnitTest>
+    <UnitTest name="mfTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="a70ccfc9-ed9e-ba5c-a1fe-d24d51bdf766">
+      <Execution id="582ae8c8-198b-4401-ab52-ef58e7f42c1a" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="mfTest" />
+    </UnitTest>
+    <UnitTest name="CompareDinosByLengthTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="4ccb7f5a-0900-f0c7-2e5f-9b6b5101f624">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="d4f2d0f7-ef4d-4e8c-917d-3cbcf077878f" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CompareDinosByLengthTest" />
+    </UnitTest>
+    <UnitTest name="TPTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="61e8b180-526d-2303-09a4-e17c2a81403d">
+      <Execution id="e77f426e-8942-4932-9a44-da264ca6fc99" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_LietalAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TPTest" />
+    </UnitTest>
+    <UnitTest name="TBTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="e955a223-5bf6-2542-34a9-22d0b03280da">
+      <Execution id="ddbf409a-77d8-41a6-b9cd-f52d2470ad63" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_UserAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TBTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="af55f5a6-bc11-6422-ea61-cd41bff1cd4a">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="cf155a32-332d-4718-93c1-671aba40a62a" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="TBTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="24b85259-e054-d92c-fc82-be4e63d24ca1">
+      <Execution id="6e3d83f4-9b87-4456-bebd-74bf09f1feb2" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_LietalAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TBTest" />
+    </UnitTest>
+    <UnitTest name="ResultDBTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="772d8fc0-bb07-8999-746c-28c41878cd2e">
+      <Execution id="936145d1-01d9-45c6-b89d-0975a3236e2b" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ResultDBTest" />
+    </UnitTest>
+    <UnitTest name="DiTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="8ae9e6ae-f528-5375-224f-a6b559a94277">
+      <Execution id="a1f1d6dc-ecdd-46a6-953b-69a153295a4a" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PropertiesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DiTest" />
+    </UnitTest>
+    <UnitTest name="TestTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="8f7f0c38-6bd2-e9e2-32d3-386983edb425">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="01e35ab9-839f-4ba0-961a-87c57a0d075b" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestTest" />
+    </UnitTest>
+    <UnitTest name="FinalTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="1b7929b5-df02-d014-26a9-107fdc83ebac">
+      <Execution id="43816d51-cdef-4fbb-a4a2-0738f086022b" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_Properties_DurezaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FinalTest" />
+    </UnitTest>
+    <UnitTest name="PreditionAlgorithm_PredictSeriesConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="d9c13a68-692b-300f-3e66-9bfcb493bbbb">
+      <Execution id="34abaf98-37ef-408f-a4ae-d8ef1a8f7393" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PredictSeriesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PreditionAlgorithm_PredictSeriesConstructorTest" />
+    </UnitTest>
+    <UnitTest name="MinTempTranfTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="d3f4bc4b-aae1-a121-32f8-fed4b010b2b0">
+      <Execution id="42a5772d-9b43-42e1-a983-09bdc5cc05ef" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PredictSeriesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MinTempTranfTest" />
+    </UnitTest>
+    <UnitTest name="PreditionAlgorithm_CalculatedPointConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="61b40d19-e871-30a4-29e6-3c5840d2bfcf">
+      <Execution id="48a3959e-e49e-4137-9b50-8f9d75abfa6c" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_CalculatedPointTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PreditionAlgorithm_CalculatedPointConstructorTest" />
+    </UnitTest>
+    <UnitTest name="MartensitaTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="3d75e052-cdfb-c6be-46d6-b753a89e8db6">
+      <Execution id="872ce87c-a79f-4c5c-b84b-8086322a1881" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_Properties_DurezaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MartensitaTest" />
+    </UnitTest>
+    <UnitTest name="CalculateBainitaTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="7ca9c9e1-8dde-0479-73d0-725a6a74324a">
+      <Execution id="52b57f5e-0971-4456-a62b-33a390580eb3" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_UserAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateBainitaTest" />
+    </UnitTest>
+    <UnitTest name="VelocidadExtractionTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="bc888548-6e4b-9dfb-9107-2f2acd8b3f8d">
+      <Execution id="b7711533-ca12-478e-b04f-4f3c5745168c" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_Properties_PropertiesCalculatedTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VelocidadExtractionTest" />
+    </UnitTest>
+    <UnitTest name="IsValidTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="3144330e-6033-4a8a-b353-ded5b85e5624">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="738b18cf-8526-4fc8-9372-2c81159dccad" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmCurveEditTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidTest" />
+    </UnitTest>
+    <UnitTest name="VerificaMicroestructuraTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="5630fd59-2e0b-dfaa-fa9f-4e27a597761d">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="121c0ebb-e545-42a1-99ff-fa03f3f26bdf" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PropertiesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VerificaMicroestructuraTest" />
+    </UnitTest>
+    <UnitTest name="PreditionAlgorithm_Properties_PropertiesCalculatedConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="d5a3df22-556f-3232-5d4e-7344b4e7aa8f">
+      <Execution id="7ea2322a-1487-4630-98cd-c08102b3b91a" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_Properties_PropertiesCalculatedTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PreditionAlgorithm_Properties_PropertiesCalculatedConstructorTest" />
+    </UnitTest>
+    <UnitTest name="IsValidDBTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="b160705a-227f-3471-f18a-0ddf5a9a7455">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="bd88c4ad-f314-482f-870a-ff2904fb3f43" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidDBTest" />
+    </UnitTest>
+    <UnitTest name="simpleButton4_ClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="3f855e8b-e091-a880-d592-d2174a83a16f">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="426bbd07-8df3-4ce5-8ca6-d0c10c90917b" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="simpleButton4_ClickTest" />
+    </UnitTest>
+    <UnitTest name="FrmChooseFormula_LoadTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="2be38f97-45f0-e079-3a3a-8dbda5133026">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="61279fe6-d7ad-4309-ad17-e766bb3147f1" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmChooseFormulaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FrmChooseFormula_LoadTest" />
+    </UnitTest>
+    <UnitTest name="ucPieFormulario1_AceptarTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="46464bc0-a4b8-8889-e96c-37ef3aa85580">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="23283071-2fc2-4378-8e76-8e1485338bf3" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ucPieFormulario1_AceptarTest" />
+    </UnitTest>
+    <UnitTest name="GetValorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="92c9bf97-b022-aba4-2753-6966e01faa0c">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="ba9a9dc0-e748-42fe-81ad-3fd8f9f45258" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetValorTest" />
+    </UnitTest>
+    <UnitTest name="PercentsTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="7a61d47b-99c5-2239-3de5-c0583423fd72">
+      <Execution id="06bb1585-dd6d-4631-8fcc-8b82c5c857e8" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_Properties_PropertiesCalculatedTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PercentsTest" />
+    </UnitTest>
+    <UnitTest name="gridLookUpEdit1_Properties_EditValueChangedTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="4bae9f0a-713d-ef23-3e58-d35ac06caaa2">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="e8f0f620-4af8-49bc-940c-ce0a293fef68" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="gridLookUpEdit1_Properties_EditValueChangedTest" />
+    </UnitTest>
+    <UnitTest name="UpdateDictionaryTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="df688480-cf0b-4e6f-e518-aa0782a59f52">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="c0dd2560-70c8-4b64-ae0c-133b1d3b78a1" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PropertiesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="UpdateDictionaryTest" />
+    </UnitTest>
+    <UnitTest name="SerieByNameTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="17f4001d-d2b1-fd7a-f6cb-900746e2686d">
+      <Execution id="629665dd-1345-45d7-8425-898d3cd1eaee" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PredictSeriesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SerieByNameTest" />
+    </UnitTest>
+    <UnitTest name="PreditionAlgorithm_PropertiesConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="3f80d377-71eb-5926-b868-e19ac0a42b28">
+      <Execution id="0e3b99f9-b851-4e2a-a70f-0567cf974d84" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PropertiesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PreditionAlgorithm_PropertiesConstructorTest" />
+    </UnitTest>
+    <UnitTest name="simpleButton1_ClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="c4f0212a-b006-a7e5-9e62-a82ea8592148">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="072b0b36-24e0-4c8d-b9ab-d693faede9d8" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="simpleButton1_ClickTest" />
+    </UnitTest>
+    <UnitTest name="SerieTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="622bea8e-dd12-1b7a-ae4c-8dcd33a6e076">
+      <Execution id="cbd22b46-a390-46d1-8ad4-c8fdb8e5d027" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SerieTest" />
+    </UnitTest>
+    <UnitTest name="Ferrita_PerlitaTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="5c2e8234-2607-4a8a-778f-5f587216650f">
+      <Execution id="c7c4b0aa-9d84-4d69-b144-069d93e54e75" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_Properties_DurezaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Ferrita_PerlitaTest" />
+    </UnitTest>
+    <UnitTest name="PreditionAlgorithm_CalculatedPointListConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="eb9c62af-a04b-e5c8-fb34-94e92236070d">
+      <Execution id="f005a683-fbdd-435e-a0cb-74c8e6f895bb" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_CalculatedPointListTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PreditionAlgorithm_CalculatedPointListConstructorTest" />
+    </UnitTest>
+    <UnitTest name="BainitaTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="7fb2e06c-ea16-c4cd-72c6-8d0607f14b0a">
+      <Execution id="6e0ba5d7-bb0c-4422-8307-be044fa06064" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_Properties_DurezaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="BainitaTest" />
+    </UnitTest>
+    <UnitTest name="CreateSerieResultTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="1dfaeb0d-dd6a-bf5e-8fab-801278ff4ad8">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="41ee0612-5867-4652-ad28-8bac512419c3" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CreateSerieResultTest" />
+    </UnitTest>
+    <UnitTest name="GetindexListTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="b6d4666f-1e95-9272-8938-976c8700834b">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="3795ba3a-0460-490e-9379-9ff7d6043f80" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetindexListTest" />
+    </UnitTest>
+    <UnitTest name="GetSerieInitialPointTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="32398cc3-6887-3784-c1bf-fa570f8faa72">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="c7e89615-7074-4232-beb3-ebd55ad5aa4b" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSerieInitialPointTest" />
+    </UnitTest>
+    <UnitTest name="aceroPredecBindingSource_ListChangedTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="e417a53c-30d5-e0b9-ab08-3365688efb95">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="68e4c9d9-45b2-441b-aa5d-80b66473fbe6" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="aceroPredecBindingSource_ListChangedTest" />
+    </UnitTest>
+    <UnitTest name="CalculateFerritaTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="d453d544-75b2-1061-45e3-d44b827be041">
+      <Execution id="2a86fdc5-5e94-4747-b60a-a1837e152376" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_UserAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateFerritaTest" />
+    </UnitTest>
+    <UnitTest name="checkEdit1_ClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="6cd51a98-a302-57a5-3e0d-cfc83c48d8a0">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="0db6fdc7-d2d0-4f73-9a6e-6d1e17eb8fbe" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkEdit1_ClickTest" />
+    </UnitTest>
+    <UnitTest name="NormalizeTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="d495924d-ab34-9dc5-f56a-1eeb5babcffb">
+      <Execution id="fc437efe-76d8-49b9-afc6-32b51733ce8d" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PropertiesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NormalizeTest" />
+    </UnitTest>
+    <UnitTest name="simpleButton1_ClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="a6676c78-69db-4e89-dc06-4c91df9678dc">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="afd24dc3-15e9-4d44-8895-137622215769" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="simpleButton1_ClickTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="4555668f-1dc1-ab54-88aa-aaedb74c4fed">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="4c6232da-37e4-474f-adc8-a246c7eb7dc2" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmCurveEditTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="NameTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="7ec9a6af-31ee-7e14-1fe4-5b9c987ff260">
+      <Execution id="630ca027-3a0d-4ef4-98c0-c85ed0ba2baa" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_CalculatedPointListTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NameTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="6d8f96e5-c88a-4936-155e-2375052566e0">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="a4759253-b1d4-4a21-b594-db192a01b864" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmCurveManagerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="5c25a36a-3f44-6e2e-9139-5ca8792f7f22">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="99d433c0-7ecf-4438-93a2-3adf33603127" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmViewPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="PtoInicioTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="413f3e70-c4f8-15cc-461e-2a8108679c87">
+      <Execution id="b6300735-e071-43f3-850b-3d8d1dd05fc7" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_Properties_PropertiesCalculatedTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PtoInicioTest" />
+    </UnitTest>
+    <UnitTest name="CalculateTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="a92caa54-7896-23dc-3da0-da718e2d6043">
+      <Execution id="87c5a669-ebe1-4f6d-8cb2-d52206367312" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculateTest" />
+    </UnitTest>
+    <UnitTest name="GetSeriesOrderedTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="51d881fb-0d16-0882-a689-5dcb48fb89c5">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="29c3a8d2-259a-49a3-be43-8861856a351e" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetSeriesOrderedTest" />
+    </UnitTest>
+    <UnitTest name="gridLookUpEdit1_Properties_EditValueChangedTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="8a6aea09-3500-04b3-fa94-7b74b584cf7e">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="d4171345-a8e8-4deb-a812-9e192006fdb7" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmChooseFormulaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="gridLookUpEdit1_Properties_EditValueChangedTest" />
+    </UnitTest>
+    <UnitTest name="PreditionAlgorithm_UserAlgorithmConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="283cbeb6-bb9b-b5f8-e342-7e037c860dc9">
+      <Execution id="0c8a6179-bbf6-403b-afa1-925b3a3da436" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_UserAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PreditionAlgorithm_UserAlgorithmConstructorTest" />
+    </UnitTest>
+    <GenericTest name="GenericTest1" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\generictest1.generictest" id="283d13a1-13f9-4bb7-8c9b-9a0121394b25">
+      <Execution id="7d43b701-f203-44bd-82eb-b3396422245e" />
+      <Command filename="&lt;Escriba aquí el nombre de archivo&gt;" workingDirectory="%TestOutputDirectory%" />
+      <SummaryXmlFile path="%TestOutputDirectory%\&lt;Escriba aquí el nombre del archivo de resumen&gt;" />
+    </GenericTest>
+    <UnitTest name="FromGraphObjectTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="f5737e21-5a12-b643-290b-38a7dc0187a9">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="ed4a8838-517b-4560-8717-d0217baa542a" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PredictSeriesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FromGraphObjectTest" />
+    </UnitTest>
+    <UnitTest name="checkEdit1_Properties_CheckStateChangedTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="49fa3b2d-421e-ed21-524c-00c628f9db91">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="fb4784f9-b6fb-4b2e-b462-305fefb9e62b" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkEdit1_Properties_CheckStateChangedTest" />
+    </UnitTest>
+    <UnitTest name="ItemByRangeTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="93c5279c-0b36-7224-bfc9-3ac762261464">
+      <Execution id="b3e76268-ec89-4294-a113-0327aed5ffca" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_CalculatedPointListTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ItemByRangeTest" />
+    </UnitTest>
+    <UnitTest name="gridView1_RowUpdatedTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="8793a8ac-e599-d19e-448e-da9531c615bd">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="00942c34-2422-4e37-acd1-30a968eeee80" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="gridView1_RowUpdatedTest" />
+    </UnitTest>
+    <UnitTest name="TempTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="d5f98f48-5b10-d572-7a15-8bed8174d5ad">
+      <Execution id="e47b1632-0730-45d7-ae4a-5b3c21d96a74" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_CalculatedPointTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TempTest" />
+    </UnitTest>
+    <UnitTest name="FormulaTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="9ef0a563-52eb-5450-bb55-49b504402e43">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="4b9c4464-e29f-479c-8097-5fa3d879624f" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmChooseFormulaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FormulaTest" />
+    </UnitTest>
+    <UnitTest name="ucPieFormulario1_AceptarTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="eef9ca45-489d-3095-c597-b0f22e6fb260">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="777cb6c4-97e5-4c6b-942e-7b0900da6612" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmChooseFormulaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ucPieFormulario1_AceptarTest" />
+    </UnitTest>
+    <UnitTest name="PreditionAlgorithm_Properties_DurezaConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="9d9cff71-90dc-5744-8b79-2a2a188ffd0d">
+      <Execution id="8498b244-248c-4921-857b-6343276230e3" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_Properties_DurezaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PreditionAlgorithm_Properties_DurezaConstructorTest" />
+    </UnitTest>
+    <UnitTest name="FrmPredictPropiedadesConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="c55b72ea-0fc7-a47b-5990-727caabbea92">
+      <Execution id="e7c9321d-c222-45e0-a945-6b1245d015ca" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FrmPredictPropiedadesConstructorTest" />
+    </UnitTest>
+    <UnitTest name="checkEdit1_CheckedChangedTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="63cc026f-122b-9447-08d5-31ef910f37a5">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="1731f112-6d30-40f1-93f5-e56e84968625" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="checkEdit1_CheckedChangedTest" />
+    </UnitTest>
+    <UnitTest name="OrderTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="25d13298-ab7b-51cd-d686-9836cf094bbf">
+      <Execution id="0f0a9887-526a-4cd3-acec-eacbf93438b9" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_CalculatedPointListTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OrderTest" />
+    </UnitTest>
+    <UnitTest name="AceroTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="5d97a80b-87c4-5f02-9709-fc6101271b73">
+      <Execution id="69a20c42-4213-4d0c-8493-6ad047a5dc93" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AceroTest" />
+    </UnitTest>
+    <UnitTest name="TFTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="925fd41a-7402-0003-613b-fb73c0bd40f3">
+      <Execution id="69037a9b-7cb3-48e0-9736-3b8ecad395d9" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_UserAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TFTest" />
+    </UnitTest>
+    <UnitTest name="gridView1_RowUpdatedTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="db644203-4f88-f070-e52b-20ad75d7268d">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="cbe3f8d3-47e2-4a23-944a-f98fc9f1bd9e" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmCurveManagerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="gridView1_RowUpdatedTest" />
+    </UnitTest>
+    <UnitTest name="FrmPredecirConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="93a90d23-8033-5a64-08ff-cde79f09099f">
+      <Execution id="6f3fcb51-d2fa-45e6-8f44-0138c28817f3" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FrmPredecirConstructorTest" />
+    </UnitTest>
+    <UnitTest name="simpleButton3_ClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="b58e673a-8b90-3577-bc3c-10a0e8be7fb5">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="a548b6c7-09f3-49cb-be1b-133b96912190" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="simpleButton3_ClickTest" />
+    </UnitTest>
+    <UnitTest name="MaxValueTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="5a2e9324-c538-8480-6e24-87ee703a4ca6">
+      <Execution id="3c0001b8-c892-4b23-8726-32fe623e6f3f" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="MaxValueTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="1610c425-1f55-7e4a-439c-75d788fba521">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="ddd167ca-877c-4664-a99c-5c454cd57d74" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmCurveManagerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="button1_ClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="177051f7-54c6-7465-5938-c190544968d2">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="e08bba96-8f92-4de0-a2f8-19e9988ef27e" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="button1_ClickTest" />
+    </UnitTest>
+    <UnitTest name="PreditionAlgorithm_KirkaldyAlgorithmConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="cb0c2488-e6be-ec7c-080f-88606d60ac9c">
+      <Execution id="acf1a162-332a-4367-8906-48cd7adbae78" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_KirkaldyAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PreditionAlgorithm_KirkaldyAlgorithmConstructorTest" />
+    </UnitTest>
+    <UnitTest name="dtTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="b05130e1-bf43-7d44-6bf2-0491b1c444f1">
+      <Execution id="0329fb44-6e11-4827-aa02-d4445638d19f" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="dtTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="294fecd2-092c-d94e-57d8-04093c707459">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="3c15490f-6035-4236-85f6-407daccb0b73" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmChooseFormulaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="9cab144d-f661-da7c-c40e-e36a7b39b55d">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="1d5f4a63-f234-453d-a13d-43abc2d2f108" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmChooseFormulaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="GetNouseBainitaTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="6ec1ec56-c9e9-cf83-a20d-63efa2fce1ca">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="2cdbb091-f152-481c-83b3-056d7d5fdfa8" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_UserAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetNouseBainitaTest" />
+    </UnitTest>
+    <UnitTest name="TFTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="937365ea-3e28-c524-45fa-7a7f29d4e914">
+      <Execution id="b09384e6-89f3-4f08-9f65-ed126b146a67" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_LietalAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TFTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="11615727-9aba-ea49-c865-6286ce899f65">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="81e1590f-5223-4931-8dcc-5313f6e25e36" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmCurveEditTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="simpleButton3_ClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="9c9d1bf8-50a0-371c-e87c-ad6e06c1009c">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="78333fe6-8220-4a78-8d21-493b78d94d48" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="simpleButton3_ClickTest" />
+    </UnitTest>
+    <UnitTest name="FrmCurveManager_LoadTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="4d57b9ab-e64c-6aae-fb9f-2b677e67afd7">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="627a48c8-cd4a-4791-8a4d-8dfcb4180d1a" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmCurveManagerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FrmCurveManager_LoadTest" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="59863143-3238-122e-4d8a-637b491cc755">
+      <Execution id="9d2e605d-1745-49ac-a3af-907e425e4003" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.UnitTest1, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="InicialTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="52dd1e37-10da-88de-1efd-74c1c436fe51">
+      <Execution id="dfd87d43-d94c-4baf-9f6f-b67bf64a3e47" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_CalculatedPointTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InicialTest" />
+    </UnitTest>
+    <UnitTest name="ParentPredecirTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="b6cce1a5-3d3b-c2d5-64ee-281a3d8f382f">
+      <Execution id="20b805c7-1bbb-4250-a205-e3f331cfd235" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmViewPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ParentPredecirTest" />
+    </UnitTest>
+    <UnitTest name="FillChartTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="03bbd888-0090-6251-52af-611655e4b6a9">
+      <Execution id="05b54d72-68d9-42f3-ae33-98bffc675ba1" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmViewPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FillChartTest" />
+    </UnitTest>
+    <UnitTest name="PreditionAlgorithmConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="c4298783-8506-19dc-1fdc-1183a956f079">
+      <Execution id="bb137244-049b-4007-95ba-138cd55b4398" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PreditionAlgorithmConstructorTest" />
+    </UnitTest>
+    <UnitTest name="ValueTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="165586d2-2671-48fe-e140-2b9b9093e1f4">
+      <Execution id="3c7d5d6b-2ff6-4057-9456-f866ffe9c723" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmChooseFormulaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ValueTest" />
+    </UnitTest>
+    <UnitTest name="PointsTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="066a5442-a25e-87ba-4898-5eb62fcc0ed7">
+      <Execution id="2c6611e3-9ab2-413e-abea-426aca0578f1" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_Properties_PropertiesCalculatedTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PointsTest" />
+    </UnitTest>
+    <UnitTest name="FrmPredecir_LoadTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="fd56e400-d024-6c51-1528-2fc469e27b0e">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="7f633355-1b86-40f7-b4a4-cd607a1530d1" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FrmPredecir_LoadTest" />
+    </UnitTest>
+    <UnitTest name="CefTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="cf7b5ef7-42e8-9b07-ad83-5230e05c7a41">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="45a064fc-a121-4551-aedd-27fbac7d88f2" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_KirkaldyAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CefTest" />
+    </UnitTest>
+    <UnitTest name="ToTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="34decc6b-fa27-9595-f8d7-a6383d346008">
+      <Execution id="b5420e0a-d9dc-4a76-9762-0898d6c4176b" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ToTest" />
+    </UnitTest>
+    <UnitTest name="ParentPredecirTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="540f1830-e910-1e9d-c2ba-e80fc1fe8de2">
+      <Execution id="729f3996-0844-4d71-8378-aa844743f672" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ParentPredecirTest" />
+    </UnitTest>
+    <UnitTest name="FrmCurveManagerConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="271fdbf0-fb06-584c-e8b7-70a7328eee18">
+      <Execution id="61cb1f15-2125-4938-8a1a-1eaaf213092e" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmCurveManagerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FrmCurveManagerConstructorTest" />
+    </UnitTest>
+    <UnitTest name="simpleButton1_ClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="71ea4d97-b76c-5784-fc3f-433cbbb989c8">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="7642a629-122d-45f1-8045-ba8c7a2ec1b1" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmViewPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="simpleButton1_ClickTest" />
+    </UnitTest>
+    <UnitTest name="VleTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="f7017caa-970f-f39d-0986-3d52839bb76a">
+      <Execution id="2fefe5f2-5364-4a4a-8412-8bec3802837b" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="VleTest" />
+    </UnitTest>
+    <UnitTest name="chartControl1_ObjectSelectedTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="38fbe89c-19ac-d3a2-a501-5b10841ca517">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="2655bdb7-39d0-49f1-859c-c8a7f87380e8" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chartControl1_ObjectSelectedTest" />
+    </UnitTest>
+    <UnitTest name="retTiempoTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="5e0c9a6e-17c7-b3b1-a219-d7ce58329f64">
+      <Execution id="d903ac76-cdaf-4d93-94ba-130e94b04b3c" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="retTiempoTest" />
+    </UnitTest>
+    <UnitTest name="DBTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="d498f32e-0340-0e2a-176c-e166c218e0be">
+      <Execution id="06f4cc15-faef-440b-84ee-d135a20be257" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmChooseFormulaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DBTest" />
+    </UnitTest>
+    <UnitTest name="simpleButton2_ClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="900a4cef-e0d2-0dbc-7a2e-ed87a0f68723">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="096aa222-12c4-495a-87ac-2fbd46cc6ca1" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="simpleButton2_ClickTest" />
+    </UnitTest>
+    <UnitTest name="TFTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="6dfcf882-1589-29e0-b840-3ea93eddf5d7">
+      <Execution id="904d1582-0ee0-42a0-adcb-154e119f7b7a" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_KirkaldyAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TFTest" />
+    </UnitTest>
+    <UnitTest name="FillChartControlTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="37c301cb-c9f1-d03a-b2ac-64aaa71e0dc2">
+      <Execution id="36e1efe3-bb05-41b9-ab75-a61b6313e040" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FillChartControlTest" />
+    </UnitTest>
+    <UnitTest name="repositoryItemButtonEdit1_ButtonPressedTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="ef9d7482-b6fb-b6f9-1e56-881a8240d508">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="1956f8b0-7819-4320-9faa-fd559b967bde" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmCurveManagerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="repositoryItemButtonEdit1_ButtonPressedTest" />
+    </UnitTest>
+    <UnitTest name="simpleButton1_ClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="bbf4c5ba-e99b-2cf7-d47a-7ed16c9c0239">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="73bc3bff-6fc1-435f-b264-031c126d2318" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmChooseFormulaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="simpleButton1_ClickTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="b1d4d886-e7a6-dc05-5cce-30d6a688d477">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="2bd2e7ac-ed00-430f-8fc3-69c908d227c2" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmViewPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="DTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="7089a4e9-e70e-258e-ef05-ac9fcce84f18">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="0647618c-8ce1-4c83-bb66-ff7679306528" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_KirkaldyAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DTest" />
+    </UnitTest>
+    <UnitTest name="GenerateCurvesCTTTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="c54f59d1-7f71-7706-e811-acd4d5a33708">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="e1311caa-1220-4586-9fc0-96c0a5c5aa4c" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GenerateCurvesCTTTest" />
+    </UnitTest>
+    <UnitTest name="PredictionFraccionTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="8cdddab2-717d-c8d3-6f85-c04413dc536d">
+      <Execution id="547893db-9d80-4231-8cf9-ba3212254aa7" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PropertiesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PredictionFraccionTest" />
+    </UnitTest>
+    <UnitTest name="FrmChooseFormulaConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="f49176fc-8982-b20e-2971-7375c177ff08">
+      <Execution id="b77dd6d5-5e85-4e99-8939-0c6b289f42ce" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmChooseFormulaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FrmChooseFormulaConstructorTest" />
+    </UnitTest>
+    <UnitTest name="NormaTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="83db7177-c673-f95a-e559-f706cf065d04">
+      <Execution id="55fa539a-e5ba-4084-88ce-d4168d472cf0" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NormaTest" />
+    </UnitTest>
+    <UnitTest name="InitializeComponentTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="ebe32429-a16f-8a7f-4401-c46cf6d6e9ce">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="6122b35c-a315-43da-8036-e896e5ea9424" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="InitializeComponentTest" />
+    </UnitTest>
+    <UnitTest name="TBTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="939a1558-44ff-0969-54f7-6a918470ef40">
+      <Execution id="e845365f-cc29-4cf2-bbe7-cced9a04c6db" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_KirkaldyAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TBTest" />
+    </UnitTest>
+    <UnitTest name="FrmCurveEditConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="6c1bf025-096b-2f90-d3db-e88734ec5520">
+      <Execution id="8134b92c-4593-4c98-b379-7f2dacf31925" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmCurveEditTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FrmCurveEditConstructorTest" />
+    </UnitTest>
+    <UnitTest name="RokwellCTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="a7f14fc8-7c02-51fa-27dc-548bda65d472">
+      <Execution id="1ae3a9d3-c513-469f-a94a-d0d12e03026f" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_Properties_DurezaTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RokwellCTest" />
+    </UnitTest>
+    <UnitTest name="simpleButton2_ClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="586e5209-ddf1-aef5-d769-15dce47b2121">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="1766e3ae-3413-43a9-b1b6-f2b1f5ff613e" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="simpleButton2_ClickTest" />
+    </UnitTest>
+    <UnitTest name="IsValidTempTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="2198726d-893f-d034-44d6-955b7bec7db0">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="a37632a9-2551-42d0-a8a7-5ff4e11235b9" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="IsValidTempTest" />
+    </UnitTest>
+    <UnitTest name="PreditionAlgorithm_LietalAlgorithmConstructorTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="d4b8bc8b-03ca-8dac-7631-2077b1f13f5e">
+      <Execution id="4f0b719c-bf47-4da8-bcfe-a9f627142267" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_LietalAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PreditionAlgorithm_LietalAlgorithmConstructorTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="1ce7cb58-30c7-241b-71cf-f456554e98a4">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="81ca104f-ce28-44fe-9403-82a28ccf4ce9" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="chartControl1_ClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="7322f2e3-31a2-03d4-1b3f-3b2349488ab6">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="502cd77c-2ae0-4eef-80b2-3f29c9af257b" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="chartControl1_ClickTest" />
+    </UnitTest>
+    <UnitTest name="F_MartensitaTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="b246f8f9-4c58-b2b7-96b7-5fe0b9d4e6de">
+      <Execution id="23912884-50fd-43ca-9b66-12d741647da9" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PropertiesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="F_MartensitaTest" />
+    </UnitTest>
+    <UnitTest name="CalculatePerlitaTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="a2a4eeab-e563-f326-95c9-fdb6513b1c6d">
+      <Execution id="7513637c-e6c6-4a34-b1c2-488d03a57be4" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_UserAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CalculatePerlitaTest" />
+    </UnitTest>
+    <UnitTest name="PredictTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="31cafeff-032e-ff0f-c8b1-0f2878895bfc">
+      <Execution id="4e60125a-bb42-48dc-97e2-d1ceafcb5879" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_PropertiesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="PredictTest" />
+    </UnitTest>
+    <UnitTest name="dataTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="307f23b4-b19a-caba-b8e0-d49e0c55466d">
+      <Execution id="e432c7c2-f5c8-4fa6-ade6-953b2b93fcf1" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmCurveEditTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="dataTest" />
+    </UnitTest>
+    <UnitTest name="DisposeTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="7393d29f-495a-018a-08d3-06d9578e1c86">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="dff20310-be71-418c-9797-a4d9caaed9c9" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredictPropiedadesTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="DisposeTest" />
+    </UnitTest>
+    <UnitTest name="TPTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="a808abb1-e8b0-adc6-cce4-d187fc1a08db">
+      <Execution id="71333452-83bd-492c-bcd5-c1af505da57d" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.PreditionAlgorithm_UserAlgorithmTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TPTest" />
+    </UnitTest>
+    <UnitTest name="gridView1_InitNewRowTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="3e007f19-8c31-5566-77bb-855da5c03846">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="e2c3eef2-abc4-40b4-acae-4327e7430c38" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmCurveManagerTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="gridView1_InitNewRowTest" />
+    </UnitTest>
+    <UnitTest name="buttonEdit1_ButtonClickTest" storage="c:\users\harry\documents\visual studio 2010\projects\acatta\testproject1\bin\debug\testproject1.dll" id="99775fcf-b8af-a981-a4cf-542445e18a61">
+      <DeploymentItems>
+        <DeploymentItem filename="ACATTA.exe" />
+      </DeploymentItems>
+      <Execution id="00419542-94a3-481b-a2eb-ab528098aab6" />
+      <TestMethod codeBase="C:/Users/Harry/Documents/Visual Studio 2010/Projects/ACATTA/TestProject1/bin/Debug/TestProject1.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestProject1.FrmPredecirTest, TestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="buttonEdit1_ButtonClickTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Resultados que no están en la lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos los resultados cargados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="283d13a1-13f9-4bb7-8c9b-9a0121394b25" executionId="7d43b701-f203-44bd-82eb-b3396422245e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="59863143-3238-122e-4d8a-637b491cc755" executionId="9d2e605d-1745-49ac-a3af-907e425e4003" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61b40d19-e871-30a4-29e6-3c5840d2bfcf" executionId="48a3959e-e49e-4137-9b50-8f9d75abfa6c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ac9f6193-48ba-7acb-5434-94b53837771f" executionId="49ef5e00-25dd-4050-8143-8f7ba6c67842" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="52dd1e37-10da-88de-1efd-74c1c436fe51" executionId="dfd87d43-d94c-4baf-9f6f-b67bf64a3e47" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5f98f48-5b10-d572-7a15-8bed8174d5ad" executionId="e47b1632-0730-45d7-ae4a-5b3c21d96a74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eb9c62af-a04b-e5c8-fb34-94e92236070d" executionId="f005a683-fbdd-435e-a0cb-74c8e6f895bb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8bb683a5-82e4-9611-3399-0a8b3e173862" executionId="da277a32-df16-462c-85eb-c35b2b15164a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93c5279c-0b36-7224-bfc9-3ac762261464" executionId="b3e76268-ec89-4294-a113-0327aed5ffca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9fc4291f-8d55-a5f8-646a-071f2ee087c6" executionId="54843724-d165-40dc-990a-af887b93a363" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="25d13298-ab7b-51cd-d686-9836cf094bbf" executionId="0f0a9887-526a-4cd3-acec-eacbf93438b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ec9a6af-31ee-7e14-1fe4-5b9c987ff260" executionId="630ca027-3a0d-4ef4-98c0-c85ed0ba2baa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d9cff71-90dc-5744-8b79-2a2a188ffd0d" executionId="8498b244-248c-4921-857b-6343276230e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7fb2e06c-ea16-c4cd-72c6-8d0607f14b0a" executionId="6e0ba5d7-bb0c-4422-8307-be044fa06064" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c2e8234-2607-4a8a-778f-5f587216650f" executionId="c7c4b0aa-9d84-4d69-b144-069d93e54e75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1b7929b5-df02-d014-26a9-107fdc83ebac" executionId="43816d51-cdef-4fbb-a4a2-0738f086022b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3d75e052-cdfb-c6be-46d6-b753a89e8db6" executionId="872ce87c-a79f-4c5c-b84b-8086322a1881" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a7f14fc8-7c02-51fa-27dc-548bda65d472" executionId="1ae3a9d3-c513-469f-a94a-d0d12e03026f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f49176fc-8982-b20e-2971-7375c177ff08" executionId="b77dd6d5-5e85-4e99-8939-0c6b289f42ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cab144d-f661-da7c-c40e-e36a7b39b55d" executionId="1d5f4a63-f234-453d-a13d-43abc2d2f108" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2be38f97-45f0-e079-3a3a-8dbda5133026" executionId="61279fe6-d7ad-4309-ad17-e766bb3147f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="294fecd2-092c-d94e-57d8-04093c707459" executionId="3c15490f-6035-4236-85f6-407daccb0b73" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a6aea09-3500-04b3-fa94-7b74b584cf7e" executionId="d4171345-a8e8-4deb-a812-9e192006fdb7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bbf4c5ba-e99b-2cf7-d47a-7ed16c9c0239" executionId="73bc3bff-6fc1-435f-b264-031c126d2318" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="eef9ca45-489d-3095-c597-b0f22e6fb260" executionId="777cb6c4-97e5-4c6b-942e-7b0900da6612" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d498f32e-0340-0e2a-176c-e166c218e0be" executionId="06f4cc15-faef-440b-84ee-d135a20be257" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ef0a563-52eb-5450-bb55-49b504402e43" executionId="4b9c4464-e29f-479c-8097-5fa3d879624f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3e94051-41de-6010-09ae-e48a106f08cb" executionId="95ad15ee-73ad-4b22-9e5f-dc921fd92c84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="165586d2-2671-48fe-e140-2b9b9093e1f4" executionId="3c7d5d6b-2ff6-4057-9456-f866ffe9c723" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6c1bf025-096b-2f90-d3db-e88734ec5520" executionId="8134b92c-4593-4c98-b379-7f2dacf31925" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4555668f-1dc1-ab54-88aa-aaedb74c4fed" executionId="4c6232da-37e4-474f-adc8-a246c7eb7dc2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="11615727-9aba-ea49-c865-6286ce899f65" executionId="81e1590f-5223-4931-8dcc-5313f6e25e36" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3144330e-6033-4a8a-b353-ded5b85e5624" executionId="738b18cf-8526-4fc8-9372-2c81159dccad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b849a06-269e-7a2c-c495-bfd6c450cf6f" executionId="e33ccfe3-0ef7-4719-947b-445123142904" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="307f23b4-b19a-caba-b8e0-d49e0c55466d" executionId="e432c7c2-f5c8-4fa6-ade6-953b2b93fcf1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="271fdbf0-fb06-584c-e8b7-70a7328eee18" executionId="61cb1f15-2125-4938-8a1a-1eaaf213092e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6d8f96e5-c88a-4936-155e-2375052566e0" executionId="a4759253-b1d4-4a21-b594-db192a01b864" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4d57b9ab-e64c-6aae-fb9f-2b677e67afd7" executionId="627a48c8-cd4a-4791-8a4d-8dfcb4180d1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1610c425-1f55-7e4a-439c-75d788fba521" executionId="ddd167ca-877c-4664-a99c-5c454cd57d74" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3e007f19-8c31-5566-77bb-855da5c03846" executionId="e2c3eef2-abc4-40b4-acae-4327e7430c38" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db644203-4f88-f070-e52b-20ad75d7268d" executionId="cbe3f8d3-47e2-4a23-944a-f98fc9f1bd9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ef9d7482-b6fb-b6f9-1e56-881a8240d508" executionId="1956f8b0-7819-4320-9faa-fd559b967bde" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="93a90d23-8033-5a64-08ff-cde79f09099f" executionId="6f3fcb51-d2fa-45e6-8f44-0138c28817f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1ce7cb58-30c7-241b-71cf-f456554e98a4" executionId="81ca104f-ce28-44fe-9403-82a28ccf4ce9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="37c301cb-c9f1-d03a-b2ac-64aaa71e0dc2" executionId="36e1efe3-bb05-41b9-ab75-a61b6313e040" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fd56e400-d024-6c51-1528-2fc469e27b0e" executionId="7f633355-1b86-40f7-b4a4-cd607a1530d1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92c9bf97-b022-aba4-2753-6966e01faa0c" executionId="ba9a9dc0-e748-42fe-81ad-3fd8f9f45258" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6d4666f-1e95-9272-8938-976c8700834b" executionId="3795ba3a-0460-490e-9379-9ff7d6043f80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ebe32429-a16f-8a7f-4401-c46cf6d6e9ce" executionId="6122b35c-a315-43da-8036-e896e5ea9424" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c27790d-8690-1051-8bbd-ca0c872228fd" executionId="23273ba7-cf99-4417-9585-acaf886200ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8f7f0c38-6bd2-e9e2-32d3-386983edb425" executionId="01e35ab9-839f-4ba0-961a-87c57a0d075b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e417a53c-30d5-e0b9-ab08-3365688efb95" executionId="68e4c9d9-45b2-441b-aa5d-80b66473fbe6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="177051f7-54c6-7465-5938-c190544968d2" executionId="e08bba96-8f92-4de0-a2f8-19e9988ef27e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="99775fcf-b8af-a981-a4cf-542445e18a61" executionId="00419542-94a3-481b-a2eb-ab528098aab6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7322f2e3-31a2-03d4-1b3f-3b2349488ab6" executionId="502cd77c-2ae0-4eef-80b2-3f29c9af257b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6cd51a98-a302-57a5-3e0d-cfc83c48d8a0" executionId="0db6fdc7-d2d0-4f73-9a6e-6d1e17eb8fbe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="49fa3b2d-421e-ed21-524c-00c628f9db91" executionId="fb4784f9-b6fb-4b2e-b462-305fefb9e62b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4bae9f0a-713d-ef23-3e58-d35ac06caaa2" executionId="e8f0f620-4af8-49bc-940c-ce0a293fef68" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8793a8ac-e599-d19e-448e-da9531c615bd" executionId="00942c34-2422-4e37-acd1-30a968eeee80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4f0212a-b006-a7e5-9e62-a82ea8592148" executionId="072b0b36-24e0-4c8d-b9ab-d693faede9d8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="900a4cef-e0d2-0dbc-7a2e-ed87a0f68723" executionId="096aa222-12c4-495a-87ac-2fbd46cc6ca1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9c9d1bf8-50a0-371c-e87c-ad6e06c1009c" executionId="78333fe6-8220-4a78-8d21-493b78d94d48" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5d97a80b-87c4-5f02-9709-fc6101271b73" executionId="69a20c42-4213-4d0c-8493-6ad047a5dc93" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83db7177-c673-f95a-e559-f706cf065d04" executionId="55fa539a-e5ba-4084-88ce-d4168d472cf0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c55b72ea-0fc7-a47b-5990-727caabbea92" executionId="e7c9321d-c222-45e0-a945-6b1245d015ca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4ccb7f5a-0900-f0c7-2e5f-9b6b5101f624" executionId="d4f2d0f7-ef4d-4e8c-917d-3cbcf077878f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1dfaeb0d-dd6a-bf5e-8fab-801278ff4ad8" executionId="41ee0612-5867-4652-ad28-8bac512419c3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7393d29f-495a-018a-08d3-06d9578e1c86" executionId="dff20310-be71-418c-9797-a4d9caaed9c9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c54f59d1-7f71-7706-e811-acd4d5a33708" executionId="e1311caa-1220-4586-9fc0-96c0a5c5aa4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32398cc3-6887-3784-c1bf-fa570f8faa72" executionId="c7e89615-7074-4232-beb3-ebd55ad5aa4b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="51d881fb-0d16-0882-a689-5dcb48fb89c5" executionId="29c3a8d2-259a-49a3-be43-8861856a351e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="af55f5a6-bc11-6422-ea61-cd41bff1cd4a" executionId="cf155a32-332d-4718-93c1-671aba40a62a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="38fbe89c-19ac-d3a2-a501-5b10841ca517" executionId="2655bdb7-39d0-49f1-859c-c8a7f87380e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="63cc026f-122b-9447-08d5-31ef910f37a5" executionId="1731f112-6d30-40f1-93f5-e56e84968625" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="348d3408-c6d7-7d82-0daa-660ea6e73c94" executionId="eb4f4398-310c-4b66-b202-e2867a39c2b4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a6676c78-69db-4e89-dc06-4c91df9678dc" executionId="afd24dc3-15e9-4d44-8895-137622215769" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="586e5209-ddf1-aef5-d769-15dce47b2121" executionId="1766e3ae-3413-43a9-b1b6-f2b1f5ff613e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b58e673a-8b90-3577-bc3c-10a0e8be7fb5" executionId="a548b6c7-09f3-49cb-be1b-133b96912190" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f855e8b-e091-a880-d592-d2174a83a16f" executionId="426bbd07-8df3-4ce5-8ca6-d0c10c90917b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="46464bc0-a4b8-8889-e96c-37ef3aa85580" executionId="23283071-2fc2-4378-8e76-8e1485338bf3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="540f1830-e910-1e9d-c2ba-e80fc1fe8de2" executionId="729f3996-0844-4d71-8378-aa844743f672" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="772d8fc0-bb07-8999-746c-28c41878cd2e" executionId="936145d1-01d9-45c6-b89d-0975a3236e2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="622bea8e-dd12-1b7a-ae4c-8dcd33a6e076" executionId="cbd22b46-a390-46d1-8ad4-c8fdb8e5d027" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34decc6b-fa27-9595-f8d7-a6383d346008" executionId="b5420e0a-d9dc-4a76-9762-0898d6c4176b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f7017caa-970f-f39d-0986-3d52839bb76a" executionId="2fefe5f2-5364-4a4a-8412-8bec3802837b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b05130e1-bf43-7d44-6bf2-0491b1c444f1" executionId="0329fb44-6e11-4827-aa02-d4445638d19f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a70ccfc9-ed9e-ba5c-a1fe-d24d51bdf766" executionId="582ae8c8-198b-4401-ab52-ef58e7f42c1a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e0c9a6e-17c7-b3b1-a219-d7ce58329f64" executionId="d903ac76-cdaf-4d93-94ba-130e94b04b3c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="451b7c0e-199e-b432-6664-c9907294c2c0" executionId="400889d7-04e9-49de-8dc2-cf9410ddd43c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2826667-359b-86c8-bada-032140598d97" executionId="b7488701-9a82-4fec-bee5-66c4b66aeb24" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c25a36a-3f44-6e2e-9139-5ca8792f7f22" executionId="99d433c0-7ecf-4438-93a2-3adf33603127" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="03bbd888-0090-6251-52af-611655e4b6a9" executionId="05b54d72-68d9-42f3-ae33-98bffc675ba1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1d4d886-e7a6-dc05-5cce-30d6a688d477" executionId="2bd2e7ac-ed00-430f-8fc3-69c908d227c2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="71ea4d97-b76c-5784-fc3f-433cbbb989c8" executionId="7642a629-122d-45f1-8045-ba8c7a2ec1b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b6cce1a5-3d3b-c2d5-64ee-281a3d8f382f" executionId="20b805c7-1bbb-4250-a205-e3f331cfd235" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb0c2488-e6be-ec7c-080f-88606d60ac9c" executionId="acf1a162-332a-4367-8906-48cd7adbae78" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cf7b5ef7-42e8-9b07-ad83-5230e05c7a41" executionId="45a064fc-a121-4551-aedd-27fbac7d88f2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7089a4e9-e70e-258e-ef05-ac9fcce84f18" executionId="0647618c-8ce1-4c83-bb66-ff7679306528" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="939a1558-44ff-0969-54f7-6a918470ef40" executionId="e845365f-cc29-4cf2-bbe7-cced9a04c6db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6dfcf882-1589-29e0-b840-3ea93eddf5d7" executionId="904d1582-0ee0-42a0-adcb-154e119f7b7a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54b9aa75-f246-ebf6-d95f-255b21d02b8c" executionId="fb0d7f2c-126c-4140-a8b1-724421076024" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d4b8bc8b-03ca-8dac-7631-2077b1f13f5e" executionId="4f0b719c-bf47-4da8-bcfe-a9f627142267" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="24b85259-e054-d92c-fc82-be4e63d24ca1" executionId="6e3d83f4-9b87-4456-bebd-74bf09f1feb2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="937365ea-3e28-c524-45fa-7a7f29d4e914" executionId="b09384e6-89f3-4f08-9f65-ed126b146a67" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="61e8b180-526d-2303-09a4-e17c2a81403d" executionId="e77f426e-8942-4932-9a44-da264ca6fc99" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9c13a68-692b-300f-3e66-9bfcb493bbbb" executionId="34abaf98-37ef-408f-a4ae-d8ef1a8f7393" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5737e21-5a12-b643-290b-38a7dc0187a9" executionId="ed4a8838-517b-4560-8717-d0217baa542a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d3f4bc4b-aae1-a121-32f8-fed4b010b2b0" executionId="42a5772d-9b43-42e1-a983-09bdc5cc05ef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="17f4001d-d2b1-fd7a-f6cb-900746e2686d" executionId="629665dd-1345-45d7-8425-898d3cd1eaee" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c4298783-8506-19dc-1fdc-1183a956f079" executionId="bb137244-049b-4007-95ba-138cd55b4398" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a92caa54-7896-23dc-3da0-da718e2d6043" executionId="87c5a669-ebe1-4f6d-8cb2-d52206367312" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8dc32de-3671-88e1-cc72-75456546d6ca" executionId="d7ce1e92-a728-462e-a269-71e21ff6867a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b160705a-227f-3471-f18a-0ddf5a9a7455" executionId="bd88c4ad-f314-482f-870a-ff2904fb3f43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2198726d-893f-d034-44d6-955b7bec7db0" executionId="a37632a9-2551-42d0-a8a7-5ff4e11235b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5a2e9324-c538-8480-6e24-87ee703a4ca6" executionId="3c0001b8-c892-4b23-8726-32fe623e6f3f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3f80d377-71eb-5926-b868-e19ac0a42b28" executionId="0e3b99f9-b851-4e2a-a70f-0567cf974d84" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ae9e6ae-f528-5375-224f-a6b559a94277" executionId="a1f1d6dc-ecdd-46a6-953b-69a153295a4a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b246f8f9-4c58-b2b7-96b7-5fe0b9d4e6de" executionId="23912884-50fd-43ca-9b66-12d741647da9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db049736-87f7-86db-95f7-7a4a94647674" executionId="7d6b4f81-3df3-4caa-8081-a5c88793020d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="150ede27-3570-6391-8b5d-bf5ade7147e6" executionId="fad8391e-eacb-4a36-ac7a-85c2ec9c9ef3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f512c401-8c00-2ce7-cd75-2cef892b7306" executionId="5cde8407-9172-4c1a-b9db-8ed319d9f5c8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d495924d-ab34-9dc5-f56a-1eeb5babcffb" executionId="fc437efe-76d8-49b9-afc6-32b51733ce8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31cafeff-032e-ff0f-c8b1-0f2878895bfc" executionId="4e60125a-bb42-48dc-97e2-d1ceafcb5879" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8cdddab2-717d-c8d3-6f85-c04413dc536d" executionId="547893db-9d80-4231-8cf9-ba3212254aa7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="df688480-cf0b-4e6f-e518-aa0782a59f52" executionId="c0dd2560-70c8-4b64-ae0c-133b1d3b78a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5630fd59-2e0b-dfaa-fa9f-4e27a597761d" executionId="121c0ebb-e545-42a1-99ff-fa03f3f26bdf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5a3df22-556f-3232-5d4e-7344b4e7aa8f" executionId="7ea2322a-1487-4630-98cd-c08102b3b91a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a61d47b-99c5-2239-3de5-c0583423fd72" executionId="06bb1585-dd6d-4631-8fcc-8b82c5c857e8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="066a5442-a25e-87ba-4898-5eb62fcc0ed7" executionId="2c6611e3-9ab2-413e-abea-426aca0578f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="413f3e70-c4f8-15cc-461e-2a8108679c87" executionId="b6300735-e071-43f3-850b-3d8d1dd05fc7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bc888548-6e4b-9dfb-9107-2f2acd8b3f8d" executionId="b7711533-ca12-478e-b04f-4f3c5745168c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="283cbeb6-bb9b-b5f8-e342-7e037c860dc9" executionId="0c8a6179-bbf6-403b-afa1-925b3a3da436" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7ca9c9e1-8dde-0479-73d0-725a6a74324a" executionId="52b57f5e-0971-4456-a62b-33a390580eb3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d453d544-75b2-1061-45e3-d44b827be041" executionId="2a86fdc5-5e94-4747-b60a-a1837e152376" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2a4eeab-e563-f326-95c9-fdb6513b1c6d" executionId="7513637c-e6c6-4a34-b1c2-488d03a57be4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ec1ec56-c9e9-cf83-a20d-63efa2fce1ca" executionId="2cdbb091-f152-481c-83b3-056d7d5fdfa8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e955a223-5bf6-2542-34a9-22d0b03280da" executionId="ddbf409a-77d8-41a6-b9cd-f52d2470ad63" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="925fd41a-7402-0003-613b-fb73c0bd40f3" executionId="69037a9b-7cb3-48e0-9736-3b8ecad395d9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a808abb1-e8b0-adc6-cce4-d187fc1a08db" executionId="71333452-83bd-492c-bcd5-c1af505da57d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <GenericTestResult relativeTestOutputDirectory="7d43b701-f203-44bd-82eb-b3396422245e\HARRY-PC" executionId="7d43b701-f203-44bd-82eb-b3396422245e" testId="283d13a1-13f9-4bb7-8c9b-9a0121394b25" testName="GenericTest1" computerName="HARRY-PC" startTime="2015-06-29T12:17:48.6206466-04:00" endTime="2015-06-29T12:17:48.9206637-04:00" testType="982b8c01-1a8a-48f5-b98a-67ee64bc8687" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d43b701-f203-44bd-82eb-b3396422245e">
+      <Output>
+        <ErrorInfo>
+          <Message>El programa especificado '&lt;Escriba aquí el nombre de archivo&gt;' no es válido: Caracteres no válidos en la ruta de acceso.</Message>
+          <StackTrace>   en System.IO.Path.CheckInvalidPathChars(String path)
+   en System.IO.Path.GetExtension(String path)
+   en Microsoft.VisualStudio.TestTools.TestTypes.Generic.GenericTestAdapter.Run(ITestElement testElement, ITestContext testContext)</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </GenericTestResult>
+    <UnitTestResult executionId="9d2e605d-1745-49ac-a3af-907e425e4003" testId="59863143-3238-122e-4d8a-637b491cc755" testName="TestMethod1" computerName="HARRY-PC" duration="00:00:00.0078482" startTime="2015-06-29T12:17:48.9716667-04:00" endTime="2015-06-29T12:17:49.6577059-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d2e605d-1745-49ac-a3af-907e425e4003">
+    </UnitTestResult>
+    <UnitTestResult executionId="48a3959e-e49e-4137-9b50-8f9d75abfa6c" testId="61b40d19-e871-30a4-29e6-3c5840d2bfcf" testName="PreditionAlgorithm_CalculatedPointConstructorTest" computerName="HARRY-PC" duration="00:00:09.7265563" startTime="2015-06-29T12:17:49.6717067-04:00" endTime="2015-06-29T12:17:59.3982630-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="48a3959e-e49e-4137-9b50-8f9d75abfa6c">
+    </UnitTestResult>
+    <UnitTestResult executionId="49ef5e00-25dd-4050-8143-8f7ba6c67842" testId="ac9f6193-48ba-7acb-5434-94b53837771f" testName="FinalTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="49ef5e00-25dd-4050-8143-8f7ba6c67842">
+    </UnitTestResult>
+    <UnitTestResult executionId="dfd87d43-d94c-4baf-9f6f-b67bf64a3e47" testId="52dd1e37-10da-88de-1efd-74c1c436fe51" testName="InicialTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dfd87d43-d94c-4baf-9f6f-b67bf64a3e47">
+    </UnitTestResult>
+    <UnitTestResult executionId="e47b1632-0730-45d7-ae4a-5b3c21d96a74" testId="d5f98f48-5b10-d572-7a15-8bed8174d5ad" testName="TempTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e47b1632-0730-45d7-ae4a-5b3c21d96a74">
+    </UnitTestResult>
+    <UnitTestResult executionId="f005a683-fbdd-435e-a0cb-74c8e6f895bb" testId="eb9c62af-a04b-e5c8-fb34-94e92236070d" testName="PreditionAlgorithm_CalculatedPointListConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f005a683-fbdd-435e-a0cb-74c8e6f895bb">
+    </UnitTestResult>
+    <UnitTestResult executionId="da277a32-df16-462c-85eb-c35b2b15164a" testId="8bb683a5-82e4-9611-3399-0a8b3e173862" testName="GetByTempTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da277a32-df16-462c-85eb-c35b2b15164a">
+    </UnitTestResult>
+    <UnitTestResult executionId="b3e76268-ec89-4294-a113-0327aed5ffca" testId="93c5279c-0b36-7224-bfc9-3ac762261464" testName="ItemByRangeTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3e76268-ec89-4294-a113-0327aed5ffca">
+    </UnitTestResult>
+    <UnitTestResult executionId="54843724-d165-40dc-990a-af887b93a363" testId="9fc4291f-8d55-a5f8-646a-071f2ee087c6" testName="ItemByTempTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54843724-d165-40dc-990a-af887b93a363">
+    </UnitTestResult>
+    <UnitTestResult executionId="0f0a9887-526a-4cd3-acec-eacbf93438b9" testId="25d13298-ab7b-51cd-d686-9836cf094bbf" testName="OrderTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f0a9887-526a-4cd3-acec-eacbf93438b9">
+    </UnitTestResult>
+    <UnitTestResult executionId="630ca027-3a0d-4ef4-98c0-c85ed0ba2baa" testId="7ec9a6af-31ee-7e14-1fe4-5b9c987ff260" testName="NameTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="630ca027-3a0d-4ef4-98c0-c85ed0ba2baa">
+    </UnitTestResult>
+    <UnitTestResult executionId="8498b244-248c-4921-857b-6343276230e3" testId="9d9cff71-90dc-5744-8b79-2a2a188ffd0d" testName="PreditionAlgorithm_Properties_DurezaConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8498b244-248c-4921-857b-6343276230e3">
+    </UnitTestResult>
+    <UnitTestResult executionId="6e0ba5d7-bb0c-4422-8307-be044fa06064" testId="7fb2e06c-ea16-c4cd-72c6-8d0607f14b0a" testName="BainitaTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e0ba5d7-bb0c-4422-8307-be044fa06064">
+    </UnitTestResult>
+    <UnitTestResult executionId="c7c4b0aa-9d84-4d69-b144-069d93e54e75" testId="5c2e8234-2607-4a8a-778f-5f587216650f" testName="Ferrita_PerlitaTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7c4b0aa-9d84-4d69-b144-069d93e54e75">
+    </UnitTestResult>
+    <UnitTestResult executionId="43816d51-cdef-4fbb-a4a2-0738f086022b" testId="1b7929b5-df02-d014-26a9-107fdc83ebac" testName="FinalTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="43816d51-cdef-4fbb-a4a2-0738f086022b">
+    </UnitTestResult>
+    <UnitTestResult executionId="872ce87c-a79f-4c5c-b84b-8086322a1881" testId="3d75e052-cdfb-c6be-46d6-b753a89e8db6" testName="MartensitaTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="872ce87c-a79f-4c5c-b84b-8086322a1881">
+    </UnitTestResult>
+    <UnitTestResult executionId="1ae3a9d3-c513-469f-a94a-d0d12e03026f" testId="a7f14fc8-7c02-51fa-27dc-548bda65d472" testName="RokwellCTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1ae3a9d3-c513-469f-a94a-d0d12e03026f">
+    </UnitTestResult>
+    <UnitTestResult executionId="b77dd6d5-5e85-4e99-8939-0c6b289f42ce" testId="f49176fc-8982-b20e-2971-7375c177ff08" testName="FrmChooseFormulaConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b77dd6d5-5e85-4e99-8939-0c6b289f42ce">
+    </UnitTestResult>
+    <UnitTestResult executionId="1d5f4a63-f234-453d-a13d-43abc2d2f108" testId="9cab144d-f661-da7c-c40e-e36a7b39b55d" testName="DisposeTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1d5f4a63-f234-453d-a13d-43abc2d2f108">
+    </UnitTestResult>
+    <UnitTestResult executionId="61279fe6-d7ad-4309-ad17-e766bb3147f1" testId="2be38f97-45f0-e079-3a3a-8dbda5133026" testName="FrmChooseFormula_LoadTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61279fe6-d7ad-4309-ad17-e766bb3147f1">
+    </UnitTestResult>
+    <UnitTestResult executionId="3c15490f-6035-4236-85f6-407daccb0b73" testId="294fecd2-092c-d94e-57d8-04093c707459" testName="InitializeComponentTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c15490f-6035-4236-85f6-407daccb0b73">
+    </UnitTestResult>
+    <UnitTestResult executionId="d4171345-a8e8-4deb-a812-9e192006fdb7" testId="8a6aea09-3500-04b3-fa94-7b74b584cf7e" testName="gridLookUpEdit1_Properties_EditValueChangedTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4171345-a8e8-4deb-a812-9e192006fdb7">
+    </UnitTestResult>
+    <UnitTestResult executionId="73bc3bff-6fc1-435f-b264-031c126d2318" testId="bbf4c5ba-e99b-2cf7-d47a-7ed16c9c0239" testName="simpleButton1_ClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73bc3bff-6fc1-435f-b264-031c126d2318">
+    </UnitTestResult>
+    <UnitTestResult executionId="777cb6c4-97e5-4c6b-942e-7b0900da6612" testId="eef9ca45-489d-3095-c597-b0f22e6fb260" testName="ucPieFormulario1_AceptarTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="777cb6c4-97e5-4c6b-942e-7b0900da6612">
+    </UnitTestResult>
+    <UnitTestResult executionId="06f4cc15-faef-440b-84ee-d135a20be257" testId="d498f32e-0340-0e2a-176c-e166c218e0be" testName="DBTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06f4cc15-faef-440b-84ee-d135a20be257">
+    </UnitTestResult>
+    <UnitTestResult executionId="4b9c4464-e29f-479c-8097-5fa3d879624f" testId="9ef0a563-52eb-5450-bb55-49b504402e43" testName="FormulaTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b9c4464-e29f-479c-8097-5fa3d879624f">
+    </UnitTestResult>
+    <UnitTestResult executionId="95ad15ee-73ad-4b22-9e5f-dc921fd92c84" testId="f3e94051-41de-6010-09ae-e48a106f08cb" testName="PtoTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95ad15ee-73ad-4b22-9e5f-dc921fd92c84">
+    </UnitTestResult>
+    <UnitTestResult executionId="3c7d5d6b-2ff6-4057-9456-f866ffe9c723" testId="165586d2-2671-48fe-e140-2b9b9093e1f4" testName="ValueTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c7d5d6b-2ff6-4057-9456-f866ffe9c723">
+    </UnitTestResult>
+    <UnitTestResult executionId="8134b92c-4593-4c98-b379-7f2dacf31925" testId="6c1bf025-096b-2f90-d3db-e88734ec5520" testName="FrmCurveEditConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8134b92c-4593-4c98-b379-7f2dacf31925">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c6232da-37e4-474f-adc8-a246c7eb7dc2" testId="4555668f-1dc1-ab54-88aa-aaedb74c4fed" testName="DisposeTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c6232da-37e4-474f-adc8-a246c7eb7dc2">
+    </UnitTestResult>
+    <UnitTestResult executionId="81e1590f-5223-4931-8dcc-5313f6e25e36" testId="11615727-9aba-ea49-c865-6286ce899f65" testName="InitializeComponentTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81e1590f-5223-4931-8dcc-5313f6e25e36">
+    </UnitTestResult>
+    <UnitTestResult executionId="738b18cf-8526-4fc8-9372-2c81159dccad" testId="3144330e-6033-4a8a-b353-ded5b85e5624" testName="IsValidTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="738b18cf-8526-4fc8-9372-2c81159dccad">
+    </UnitTestResult>
+    <UnitTestResult executionId="e33ccfe3-0ef7-4719-947b-445123142904" testId="7b849a06-269e-7a2c-c495-bfd6c450cf6f" testName="ucPieFormulario1_AceptarTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e33ccfe3-0ef7-4719-947b-445123142904">
+    </UnitTestResult>
+    <UnitTestResult executionId="e432c7c2-f5c8-4fa6-ade6-953b2b93fcf1" testId="307f23b4-b19a-caba-b8e0-d49e0c55466d" testName="dataTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e432c7c2-f5c8-4fa6-ade6-953b2b93fcf1">
+    </UnitTestResult>
+    <UnitTestResult executionId="61cb1f15-2125-4938-8a1a-1eaaf213092e" testId="271fdbf0-fb06-584c-e8b7-70a7328eee18" testName="FrmCurveManagerConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="61cb1f15-2125-4938-8a1a-1eaaf213092e">
+    </UnitTestResult>
+    <UnitTestResult executionId="a4759253-b1d4-4a21-b594-db192a01b864" testId="6d8f96e5-c88a-4936-155e-2375052566e0" testName="DisposeTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a4759253-b1d4-4a21-b594-db192a01b864">
+    </UnitTestResult>
+    <UnitTestResult executionId="627a48c8-cd4a-4791-8a4d-8dfcb4180d1a" testId="4d57b9ab-e64c-6aae-fb9f-2b677e67afd7" testName="FrmCurveManager_LoadTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="627a48c8-cd4a-4791-8a4d-8dfcb4180d1a">
+    </UnitTestResult>
+    <UnitTestResult executionId="ddd167ca-877c-4664-a99c-5c454cd57d74" testId="1610c425-1f55-7e4a-439c-75d788fba521" testName="InitializeComponentTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ddd167ca-877c-4664-a99c-5c454cd57d74">
+    </UnitTestResult>
+    <UnitTestResult executionId="e2c3eef2-abc4-40b4-acae-4327e7430c38" testId="3e007f19-8c31-5566-77bb-855da5c03846" testName="gridView1_InitNewRowTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e2c3eef2-abc4-40b4-acae-4327e7430c38">
+    </UnitTestResult>
+    <UnitTestResult executionId="cbe3f8d3-47e2-4a23-944a-f98fc9f1bd9e" testId="db644203-4f88-f070-e52b-20ad75d7268d" testName="gridView1_RowUpdatedTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cbe3f8d3-47e2-4a23-944a-f98fc9f1bd9e">
+    </UnitTestResult>
+    <UnitTestResult executionId="1956f8b0-7819-4320-9faa-fd559b967bde" testId="ef9d7482-b6fb-b6f9-1e56-881a8240d508" testName="repositoryItemButtonEdit1_ButtonPressedTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1956f8b0-7819-4320-9faa-fd559b967bde">
+    </UnitTestResult>
+    <UnitTestResult executionId="6f3fcb51-d2fa-45e6-8f44-0138c28817f3" testId="93a90d23-8033-5a64-08ff-cde79f09099f" testName="FrmPredecirConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f3fcb51-d2fa-45e6-8f44-0138c28817f3">
+    </UnitTestResult>
+    <UnitTestResult executionId="81ca104f-ce28-44fe-9403-82a28ccf4ce9" testId="1ce7cb58-30c7-241b-71cf-f456554e98a4" testName="DisposeTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="81ca104f-ce28-44fe-9403-82a28ccf4ce9">
+    </UnitTestResult>
+    <UnitTestResult executionId="36e1efe3-bb05-41b9-ab75-a61b6313e040" testId="37c301cb-c9f1-d03a-b2ac-64aaa71e0dc2" testName="FillChartControlTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="36e1efe3-bb05-41b9-ab75-a61b6313e040">
+    </UnitTestResult>
+    <UnitTestResult executionId="7f633355-1b86-40f7-b4a4-cd607a1530d1" testId="fd56e400-d024-6c51-1528-2fc469e27b0e" testName="FrmPredecir_LoadTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7f633355-1b86-40f7-b4a4-cd607a1530d1">
+    </UnitTestResult>
+    <UnitTestResult executionId="ba9a9dc0-e748-42fe-81ad-3fd8f9f45258" testId="92c9bf97-b022-aba4-2753-6966e01faa0c" testName="GetValorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba9a9dc0-e748-42fe-81ad-3fd8f9f45258">
+    </UnitTestResult>
+    <UnitTestResult executionId="3795ba3a-0460-490e-9379-9ff7d6043f80" testId="b6d4666f-1e95-9272-8938-976c8700834b" testName="GetindexListTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3795ba3a-0460-490e-9379-9ff7d6043f80">
+    </UnitTestResult>
+    <UnitTestResult executionId="6122b35c-a315-43da-8036-e896e5ea9424" testId="ebe32429-a16f-8a7f-4401-c46cf6d6e9ce" testName="InitializeComponentTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6122b35c-a315-43da-8036-e896e5ea9424">
+    </UnitTestResult>
+    <UnitTestResult executionId="23273ba7-cf99-4417-9585-acaf886200ca" testId="0c27790d-8690-1051-8bbd-ca0c872228fd" testName="IsValidTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23273ba7-cf99-4417-9585-acaf886200ca">
+    </UnitTestResult>
+    <UnitTestResult executionId="01e35ab9-839f-4ba0-961a-87c57a0d075b" testId="8f7f0c38-6bd2-e9e2-32d3-386983edb425" testName="TestTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="01e35ab9-839f-4ba0-961a-87c57a0d075b">
+    </UnitTestResult>
+    <UnitTestResult executionId="68e4c9d9-45b2-441b-aa5d-80b66473fbe6" testId="e417a53c-30d5-e0b9-ab08-3365688efb95" testName="aceroPredecBindingSource_ListChangedTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="68e4c9d9-45b2-441b-aa5d-80b66473fbe6">
+    </UnitTestResult>
+    <UnitTestResult executionId="e08bba96-8f92-4de0-a2f8-19e9988ef27e" testId="177051f7-54c6-7465-5938-c190544968d2" testName="button1_ClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e08bba96-8f92-4de0-a2f8-19e9988ef27e">
+    </UnitTestResult>
+    <UnitTestResult executionId="00419542-94a3-481b-a2eb-ab528098aab6" testId="99775fcf-b8af-a981-a4cf-542445e18a61" testName="buttonEdit1_ButtonClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00419542-94a3-481b-a2eb-ab528098aab6">
+    </UnitTestResult>
+    <UnitTestResult executionId="502cd77c-2ae0-4eef-80b2-3f29c9af257b" testId="7322f2e3-31a2-03d4-1b3f-3b2349488ab6" testName="chartControl1_ClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="502cd77c-2ae0-4eef-80b2-3f29c9af257b">
+    </UnitTestResult>
+    <UnitTestResult executionId="0db6fdc7-d2d0-4f73-9a6e-6d1e17eb8fbe" testId="6cd51a98-a302-57a5-3e0d-cfc83c48d8a0" testName="checkEdit1_ClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0db6fdc7-d2d0-4f73-9a6e-6d1e17eb8fbe">
+    </UnitTestResult>
+    <UnitTestResult executionId="fb4784f9-b6fb-4b2e-b462-305fefb9e62b" testId="49fa3b2d-421e-ed21-524c-00c628f9db91" testName="checkEdit1_Properties_CheckStateChangedTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb4784f9-b6fb-4b2e-b462-305fefb9e62b">
+    </UnitTestResult>
+    <UnitTestResult executionId="e8f0f620-4af8-49bc-940c-ce0a293fef68" testId="4bae9f0a-713d-ef23-3e58-d35ac06caaa2" testName="gridLookUpEdit1_Properties_EditValueChangedTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8f0f620-4af8-49bc-940c-ce0a293fef68">
+    </UnitTestResult>
+    <UnitTestResult executionId="00942c34-2422-4e37-acd1-30a968eeee80" testId="8793a8ac-e599-d19e-448e-da9531c615bd" testName="gridView1_RowUpdatedTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="00942c34-2422-4e37-acd1-30a968eeee80">
+    </UnitTestResult>
+    <UnitTestResult executionId="072b0b36-24e0-4c8d-b9ab-d693faede9d8" testId="c4f0212a-b006-a7e5-9e62-a82ea8592148" testName="simpleButton1_ClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="072b0b36-24e0-4c8d-b9ab-d693faede9d8">
+    </UnitTestResult>
+    <UnitTestResult executionId="096aa222-12c4-495a-87ac-2fbd46cc6ca1" testId="900a4cef-e0d2-0dbc-7a2e-ed87a0f68723" testName="simpleButton2_ClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="096aa222-12c4-495a-87ac-2fbd46cc6ca1">
+    </UnitTestResult>
+    <UnitTestResult executionId="78333fe6-8220-4a78-8d21-493b78d94d48" testId="9c9d1bf8-50a0-371c-e87c-ad6e06c1009c" testName="simpleButton3_ClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="78333fe6-8220-4a78-8d21-493b78d94d48">
+    </UnitTestResult>
+    <UnitTestResult executionId="69a20c42-4213-4d0c-8493-6ad047a5dc93" testId="5d97a80b-87c4-5f02-9709-fc6101271b73" testName="AceroTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69a20c42-4213-4d0c-8493-6ad047a5dc93">
+    </UnitTestResult>
+    <UnitTestResult executionId="55fa539a-e5ba-4084-88ce-d4168d472cf0" testId="83db7177-c673-f95a-e559-f706cf065d04" testName="NormaTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="55fa539a-e5ba-4084-88ce-d4168d472cf0">
+    </UnitTestResult>
+    <UnitTestResult executionId="e7c9321d-c222-45e0-a945-6b1245d015ca" testId="c55b72ea-0fc7-a47b-5990-727caabbea92" testName="FrmPredictPropiedadesConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e7c9321d-c222-45e0-a945-6b1245d015ca">
+    </UnitTestResult>
+    <UnitTestResult executionId="d4f2d0f7-ef4d-4e8c-917d-3cbcf077878f" testId="4ccb7f5a-0900-f0c7-2e5f-9b6b5101f624" testName="CompareDinosByLengthTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4f2d0f7-ef4d-4e8c-917d-3cbcf077878f">
+    </UnitTestResult>
+    <UnitTestResult executionId="41ee0612-5867-4652-ad28-8bac512419c3" testId="1dfaeb0d-dd6a-bf5e-8fab-801278ff4ad8" testName="CreateSerieResultTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="41ee0612-5867-4652-ad28-8bac512419c3">
+    </UnitTestResult>
+    <UnitTestResult executionId="dff20310-be71-418c-9797-a4d9caaed9c9" testId="7393d29f-495a-018a-08d3-06d9578e1c86" testName="DisposeTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dff20310-be71-418c-9797-a4d9caaed9c9">
+    </UnitTestResult>
+    <UnitTestResult executionId="e1311caa-1220-4586-9fc0-96c0a5c5aa4c" testId="c54f59d1-7f71-7706-e811-acd4d5a33708" testName="GenerateCurvesCTTTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1311caa-1220-4586-9fc0-96c0a5c5aa4c">
+    </UnitTestResult>
+    <UnitTestResult executionId="c7e89615-7074-4232-beb3-ebd55ad5aa4b" testId="32398cc3-6887-3784-c1bf-fa570f8faa72" testName="GetSerieInitialPointTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c7e89615-7074-4232-beb3-ebd55ad5aa4b">
+    </UnitTestResult>
+    <UnitTestResult executionId="29c3a8d2-259a-49a3-be43-8861856a351e" testId="51d881fb-0d16-0882-a689-5dcb48fb89c5" testName="GetSeriesOrderedTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="29c3a8d2-259a-49a3-be43-8861856a351e">
+    </UnitTestResult>
+    <UnitTestResult executionId="cf155a32-332d-4718-93c1-671aba40a62a" testId="af55f5a6-bc11-6422-ea61-cd41bff1cd4a" testName="InitializeComponentTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cf155a32-332d-4718-93c1-671aba40a62a">
+    </UnitTestResult>
+    <UnitTestResult executionId="2655bdb7-39d0-49f1-859c-c8a7f87380e8" testId="38fbe89c-19ac-d3a2-a501-5b10841ca517" testName="chartControl1_ObjectSelectedTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2655bdb7-39d0-49f1-859c-c8a7f87380e8">
+    </UnitTestResult>
+    <UnitTestResult executionId="1731f112-6d30-40f1-93f5-e56e84968625" testId="63cc026f-122b-9447-08d5-31ef910f37a5" testName="checkEdit1_CheckedChangedTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1731f112-6d30-40f1-93f5-e56e84968625">
+    </UnitTestResult>
+    <UnitTestResult executionId="eb4f4398-310c-4b66-b202-e2867a39c2b4" testId="348d3408-c6d7-7d82-0daa-660ea6e73c94" testName="checkEdit1_ClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eb4f4398-310c-4b66-b202-e2867a39c2b4">
+    </UnitTestResult>
+    <UnitTestResult executionId="afd24dc3-15e9-4d44-8895-137622215769" testId="a6676c78-69db-4e89-dc06-4c91df9678dc" testName="simpleButton1_ClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="afd24dc3-15e9-4d44-8895-137622215769">
+    </UnitTestResult>
+    <UnitTestResult executionId="1766e3ae-3413-43a9-b1b6-f2b1f5ff613e" testId="586e5209-ddf1-aef5-d769-15dce47b2121" testName="simpleButton2_ClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1766e3ae-3413-43a9-b1b6-f2b1f5ff613e">
+    </UnitTestResult>
+    <UnitTestResult executionId="a548b6c7-09f3-49cb-be1b-133b96912190" testId="b58e673a-8b90-3577-bc3c-10a0e8be7fb5" testName="simpleButton3_ClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a548b6c7-09f3-49cb-be1b-133b96912190">
+    </UnitTestResult>
+    <UnitTestResult executionId="426bbd07-8df3-4ce5-8ca6-d0c10c90917b" testId="3f855e8b-e091-a880-d592-d2174a83a16f" testName="simpleButton4_ClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="426bbd07-8df3-4ce5-8ca6-d0c10c90917b">
+    </UnitTestResult>
+    <UnitTestResult executionId="23283071-2fc2-4378-8e76-8e1485338bf3" testId="46464bc0-a4b8-8889-e96c-37ef3aa85580" testName="ucPieFormulario1_AceptarTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23283071-2fc2-4378-8e76-8e1485338bf3">
+    </UnitTestResult>
+    <UnitTestResult executionId="729f3996-0844-4d71-8378-aa844743f672" testId="540f1830-e910-1e9d-c2ba-e80fc1fe8de2" testName="ParentPredecirTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="729f3996-0844-4d71-8378-aa844743f672">
+    </UnitTestResult>
+    <UnitTestResult executionId="936145d1-01d9-45c6-b89d-0975a3236e2b" testId="772d8fc0-bb07-8999-746c-28c41878cd2e" testName="ResultDBTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="936145d1-01d9-45c6-b89d-0975a3236e2b">
+    </UnitTestResult>
+    <UnitTestResult executionId="cbd22b46-a390-46d1-8ad4-c8fdb8e5d027" testId="622bea8e-dd12-1b7a-ae4c-8dcd33a6e076" testName="SerieTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cbd22b46-a390-46d1-8ad4-c8fdb8e5d027">
+    </UnitTestResult>
+    <UnitTestResult executionId="b5420e0a-d9dc-4a76-9762-0898d6c4176b" testId="34decc6b-fa27-9595-f8d7-a6383d346008" testName="ToTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b5420e0a-d9dc-4a76-9762-0898d6c4176b">
+    </UnitTestResult>
+    <UnitTestResult executionId="2fefe5f2-5364-4a4a-8412-8bec3802837b" testId="f7017caa-970f-f39d-0986-3d52839bb76a" testName="VleTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2fefe5f2-5364-4a4a-8412-8bec3802837b">
+    </UnitTestResult>
+    <UnitTestResult executionId="0329fb44-6e11-4827-aa02-d4445638d19f" testId="b05130e1-bf43-7d44-6bf2-0491b1c444f1" testName="dtTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0329fb44-6e11-4827-aa02-d4445638d19f">
+    </UnitTestResult>
+    <UnitTestResult executionId="582ae8c8-198b-4401-ab52-ef58e7f42c1a" testId="a70ccfc9-ed9e-ba5c-a1fe-d24d51bdf766" testName="mfTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="582ae8c8-198b-4401-ab52-ef58e7f42c1a">
+    </UnitTestResult>
+    <UnitTestResult executionId="d903ac76-cdaf-4d93-94ba-130e94b04b3c" testId="5e0c9a6e-17c7-b3b1-a219-d7ce58329f64" testName="retTiempoTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d903ac76-cdaf-4d93-94ba-130e94b04b3c">
+    </UnitTestResult>
+    <UnitTestResult executionId="400889d7-04e9-49de-8dc2-cf9410ddd43c" testId="451b7c0e-199e-b432-6664-c9907294c2c0" testName="teTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="400889d7-04e9-49de-8dc2-cf9410ddd43c">
+    </UnitTestResult>
+    <UnitTestResult executionId="b7488701-9a82-4fec-bee5-66c4b66aeb24" testId="a2826667-359b-86c8-bada-032140598d97" testName="FrmViewPredecirConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7488701-9a82-4fec-bee5-66c4b66aeb24">
+    </UnitTestResult>
+    <UnitTestResult executionId="99d433c0-7ecf-4438-93a2-3adf33603127" testId="5c25a36a-3f44-6e2e-9139-5ca8792f7f22" testName="DisposeTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="99d433c0-7ecf-4438-93a2-3adf33603127">
+    </UnitTestResult>
+    <UnitTestResult executionId="05b54d72-68d9-42f3-ae33-98bffc675ba1" testId="03bbd888-0090-6251-52af-611655e4b6a9" testName="FillChartTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="05b54d72-68d9-42f3-ae33-98bffc675ba1">
+    </UnitTestResult>
+    <UnitTestResult executionId="2bd2e7ac-ed00-430f-8fc3-69c908d227c2" testId="b1d4d886-e7a6-dc05-5cce-30d6a688d477" testName="InitializeComponentTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2bd2e7ac-ed00-430f-8fc3-69c908d227c2">
+    </UnitTestResult>
+    <UnitTestResult executionId="7642a629-122d-45f1-8045-ba8c7a2ec1b1" testId="71ea4d97-b76c-5784-fc3f-433cbbb989c8" testName="simpleButton1_ClickTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7642a629-122d-45f1-8045-ba8c7a2ec1b1">
+    </UnitTestResult>
+    <UnitTestResult executionId="20b805c7-1bbb-4250-a205-e3f331cfd235" testId="b6cce1a5-3d3b-c2d5-64ee-281a3d8f382f" testName="ParentPredecirTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="20b805c7-1bbb-4250-a205-e3f331cfd235">
+    </UnitTestResult>
+    <UnitTestResult executionId="acf1a162-332a-4367-8906-48cd7adbae78" testId="cb0c2488-e6be-ec7c-080f-88606d60ac9c" testName="PreditionAlgorithm_KirkaldyAlgorithmConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="acf1a162-332a-4367-8906-48cd7adbae78">
+    </UnitTestResult>
+    <UnitTestResult executionId="45a064fc-a121-4551-aedd-27fbac7d88f2" testId="cf7b5ef7-42e8-9b07-ad83-5230e05c7a41" testName="CefTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="45a064fc-a121-4551-aedd-27fbac7d88f2">
+    </UnitTestResult>
+    <UnitTestResult executionId="0647618c-8ce1-4c83-bb66-ff7679306528" testId="7089a4e9-e70e-258e-ef05-ac9fcce84f18" testName="DTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0647618c-8ce1-4c83-bb66-ff7679306528">
+    </UnitTestResult>
+    <UnitTestResult executionId="e845365f-cc29-4cf2-bbe7-cced9a04c6db" testId="939a1558-44ff-0969-54f7-6a918470ef40" testName="TBTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e845365f-cc29-4cf2-bbe7-cced9a04c6db">
+    </UnitTestResult>
+    <UnitTestResult executionId="904d1582-0ee0-42a0-adcb-154e119f7b7a" testId="6dfcf882-1589-29e0-b840-3ea93eddf5d7" testName="TFTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="904d1582-0ee0-42a0-adcb-154e119f7b7a">
+    </UnitTestResult>
+    <UnitTestResult executionId="fb0d7f2c-126c-4140-a8b1-724421076024" testId="54b9aa75-f246-ebf6-d95f-255b21d02b8c" testName="TPTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fb0d7f2c-126c-4140-a8b1-724421076024">
+    </UnitTestResult>
+    <UnitTestResult executionId="4f0b719c-bf47-4da8-bcfe-a9f627142267" testId="d4b8bc8b-03ca-8dac-7631-2077b1f13f5e" testName="PreditionAlgorithm_LietalAlgorithmConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f0b719c-bf47-4da8-bcfe-a9f627142267">
+    </UnitTestResult>
+    <UnitTestResult executionId="6e3d83f4-9b87-4456-bebd-74bf09f1feb2" testId="24b85259-e054-d92c-fc82-be4e63d24ca1" testName="TBTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6e3d83f4-9b87-4456-bebd-74bf09f1feb2">
+    </UnitTestResult>
+    <UnitTestResult executionId="b09384e6-89f3-4f08-9f65-ed126b146a67" testId="937365ea-3e28-c524-45fa-7a7f29d4e914" testName="TFTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b09384e6-89f3-4f08-9f65-ed126b146a67">
+    </UnitTestResult>
+    <UnitTestResult executionId="e77f426e-8942-4932-9a44-da264ca6fc99" testId="61e8b180-526d-2303-09a4-e17c2a81403d" testName="TPTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e77f426e-8942-4932-9a44-da264ca6fc99">
+    </UnitTestResult>
+    <UnitTestResult executionId="34abaf98-37ef-408f-a4ae-d8ef1a8f7393" testId="d9c13a68-692b-300f-3e66-9bfcb493bbbb" testName="PreditionAlgorithm_PredictSeriesConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34abaf98-37ef-408f-a4ae-d8ef1a8f7393">
+    </UnitTestResult>
+    <UnitTestResult executionId="ed4a8838-517b-4560-8717-d0217baa542a" testId="f5737e21-5a12-b643-290b-38a7dc0187a9" testName="FromGraphObjectTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ed4a8838-517b-4560-8717-d0217baa542a">
+    </UnitTestResult>
+    <UnitTestResult executionId="42a5772d-9b43-42e1-a983-09bdc5cc05ef" testId="d3f4bc4b-aae1-a121-32f8-fed4b010b2b0" testName="MinTempTranfTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42a5772d-9b43-42e1-a983-09bdc5cc05ef">
+    </UnitTestResult>
+    <UnitTestResult executionId="629665dd-1345-45d7-8425-898d3cd1eaee" testId="17f4001d-d2b1-fd7a-f6cb-900746e2686d" testName="SerieByNameTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="629665dd-1345-45d7-8425-898d3cd1eaee">
+    </UnitTestResult>
+    <UnitTestResult executionId="bb137244-049b-4007-95ba-138cd55b4398" testId="c4298783-8506-19dc-1fdc-1183a956f079" testName="PreditionAlgorithmConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb137244-049b-4007-95ba-138cd55b4398">
+    </UnitTestResult>
+    <UnitTestResult executionId="87c5a669-ebe1-4f6d-8cb2-d52206367312" testId="a92caa54-7896-23dc-3da0-da718e2d6043" testName="CalculateTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87c5a669-ebe1-4f6d-8cb2-d52206367312">
+    </UnitTestResult>
+    <UnitTestResult executionId="d7ce1e92-a728-462e-a269-71e21ff6867a" testId="d8dc32de-3671-88e1-cc72-75456546d6ca" testName="IntegralKTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d7ce1e92-a728-462e-a269-71e21ff6867a">
+    </UnitTestResult>
+    <UnitTestResult executionId="bd88c4ad-f314-482f-870a-ff2904fb3f43" testId="b160705a-227f-3471-f18a-0ddf5a9a7455" testName="IsValidDBTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bd88c4ad-f314-482f-870a-ff2904fb3f43">
+    </UnitTestResult>
+    <UnitTestResult executionId="a37632a9-2551-42d0-a8a7-5ff4e11235b9" testId="2198726d-893f-d034-44d6-955b7bec7db0" testName="IsValidTempTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a37632a9-2551-42d0-a8a7-5ff4e11235b9">
+    </UnitTestResult>
+    <UnitTestResult executionId="3c0001b8-c892-4b23-8726-32fe623e6f3f" testId="5a2e9324-c538-8480-6e24-87ee703a4ca6" testName="MaxValueTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3c0001b8-c892-4b23-8726-32fe623e6f3f">
+    </UnitTestResult>
+    <UnitTestResult executionId="0e3b99f9-b851-4e2a-a70f-0567cf974d84" testId="3f80d377-71eb-5926-b868-e19ac0a42b28" testName="PreditionAlgorithm_PropertiesConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0e3b99f9-b851-4e2a-a70f-0567cf974d84">
+    </UnitTestResult>
+    <UnitTestResult executionId="a1f1d6dc-ecdd-46a6-953b-69a153295a4a" testId="8ae9e6ae-f528-5375-224f-a6b559a94277" testName="DiTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1f1d6dc-ecdd-46a6-953b-69a153295a4a">
+    </UnitTestResult>
+    <UnitTestResult executionId="23912884-50fd-43ca-9b66-12d741647da9" testId="b246f8f9-4c58-b2b7-96b7-5fe0b9d4e6de" testName="F_MartensitaTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23912884-50fd-43ca-9b66-12d741647da9">
+    </UnitTestResult>
+    <UnitTestResult executionId="7d6b4f81-3df3-4caa-8081-a5c88793020d" testId="db049736-87f7-86db-95f7-7a4a94647674" testName="F_TransformadaTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d6b4f81-3df3-4caa-8081-a5c88793020d">
+    </UnitTestResult>
+    <UnitTestResult executionId="fad8391e-eacb-4a36-ac7a-85c2ec9c9ef3" testId="150ede27-3570-6391-8b5d-bf5ade7147e6" testName="FerriticoTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fad8391e-eacb-4a36-ac7a-85c2ec9c9ef3">
+    </UnitTestResult>
+    <UnitTestResult executionId="5cde8407-9172-4c1a-b9db-8ed319d9f5c8" testId="f512c401-8c00-2ce7-cd75-2cef892b7306" testName="GetTempTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cde8407-9172-4c1a-b9db-8ed319d9f5c8">
+    </UnitTestResult>
+    <UnitTestResult executionId="fc437efe-76d8-49b9-afc6-32b51733ce8d" testId="d495924d-ab34-9dc5-f56a-1eeb5babcffb" testName="NormalizeTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fc437efe-76d8-49b9-afc6-32b51733ce8d">
+    </UnitTestResult>
+    <UnitTestResult executionId="4e60125a-bb42-48dc-97e2-d1ceafcb5879" testId="31cafeff-032e-ff0f-c8b1-0f2878895bfc" testName="PredictTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e60125a-bb42-48dc-97e2-d1ceafcb5879">
+    </UnitTestResult>
+    <UnitTestResult executionId="547893db-9d80-4231-8cf9-ba3212254aa7" testId="8cdddab2-717d-c8d3-6f85-c04413dc536d" testName="PredictionFraccionTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="547893db-9d80-4231-8cf9-ba3212254aa7">
+    </UnitTestResult>
+    <UnitTestResult executionId="c0dd2560-70c8-4b64-ae0c-133b1d3b78a1" testId="df688480-cf0b-4e6f-e518-aa0782a59f52" testName="UpdateDictionaryTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c0dd2560-70c8-4b64-ae0c-133b1d3b78a1">
+    </UnitTestResult>
+    <UnitTestResult executionId="121c0ebb-e545-42a1-99ff-fa03f3f26bdf" testId="5630fd59-2e0b-dfaa-fa9f-4e27a597761d" testName="VerificaMicroestructuraTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="121c0ebb-e545-42a1-99ff-fa03f3f26bdf">
+    </UnitTestResult>
+    <UnitTestResult executionId="7ea2322a-1487-4630-98cd-c08102b3b91a" testId="d5a3df22-556f-3232-5d4e-7344b4e7aa8f" testName="PreditionAlgorithm_Properties_PropertiesCalculatedConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7ea2322a-1487-4630-98cd-c08102b3b91a">
+    </UnitTestResult>
+    <UnitTestResult executionId="06bb1585-dd6d-4631-8fcc-8b82c5c857e8" testId="7a61d47b-99c5-2239-3de5-c0583423fd72" testName="PercentsTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="06bb1585-dd6d-4631-8fcc-8b82c5c857e8">
+    </UnitTestResult>
+    <UnitTestResult executionId="2c6611e3-9ab2-413e-abea-426aca0578f1" testId="066a5442-a25e-87ba-4898-5eb62fcc0ed7" testName="PointsTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c6611e3-9ab2-413e-abea-426aca0578f1">
+    </UnitTestResult>
+    <UnitTestResult executionId="b6300735-e071-43f3-850b-3d8d1dd05fc7" testId="413f3e70-c4f8-15cc-461e-2a8108679c87" testName="PtoInicioTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6300735-e071-43f3-850b-3d8d1dd05fc7">
+    </UnitTestResult>
+    <UnitTestResult executionId="b7711533-ca12-478e-b04f-4f3c5745168c" testId="bc888548-6e4b-9dfb-9107-2f2acd8b3f8d" testName="VelocidadExtractionTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7711533-ca12-478e-b04f-4f3c5745168c">
+    </UnitTestResult>
+    <UnitTestResult executionId="0c8a6179-bbf6-403b-afa1-925b3a3da436" testId="283cbeb6-bb9b-b5f8-e342-7e037c860dc9" testName="PreditionAlgorithm_UserAlgorithmConstructorTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0c8a6179-bbf6-403b-afa1-925b3a3da436">
+    </UnitTestResult>
+    <UnitTestResult executionId="52b57f5e-0971-4456-a62b-33a390580eb3" testId="7ca9c9e1-8dde-0479-73d0-725a6a74324a" testName="CalculateBainitaTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="52b57f5e-0971-4456-a62b-33a390580eb3">
+    </UnitTestResult>
+    <UnitTestResult executionId="2a86fdc5-5e94-4747-b60a-a1837e152376" testId="d453d544-75b2-1061-45e3-d44b827be041" testName="CalculateFerritaTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2a86fdc5-5e94-4747-b60a-a1837e152376">
+    </UnitTestResult>
+    <UnitTestResult executionId="7513637c-e6c6-4a34-b1c2-488d03a57be4" testId="a2a4eeab-e563-f326-95c9-fdb6513b1c6d" testName="CalculatePerlitaTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7513637c-e6c6-4a34-b1c2-488d03a57be4">
+    </UnitTestResult>
+    <UnitTestResult executionId="2cdbb091-f152-481c-83b3-056d7d5fdfa8" testId="6ec1ec56-c9e9-cf83-a20d-63efa2fce1ca" testName="GetNouseBainitaTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cdbb091-f152-481c-83b3-056d7d5fdfa8">
+    </UnitTestResult>
+    <UnitTestResult executionId="ddbf409a-77d8-41a6-b9cd-f52d2470ad63" testId="e955a223-5bf6-2542-34a9-22d0b03280da" testName="TBTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ddbf409a-77d8-41a6-b9cd-f52d2470ad63">
+    </UnitTestResult>
+    <UnitTestResult executionId="69037a9b-7cb3-48e0-9736-3b8ecad395d9" testId="925fd41a-7402-0003-613b-fb73c0bd40f3" testName="TFTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="69037a9b-7cb3-48e0-9736-3b8ecad395d9">
+    </UnitTestResult>
+    <UnitTestResult executionId="71333452-83bd-492c-bcd5-c1af505da57d" testId="a808abb1-e8b0-adc6-cce4-d187fc1a08db" testName="TPTest" computerName="HARRY-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="71333452-83bd-492c-bcd5-c1af505da57d">
+    </UnitTestResult>
+  </Results>
+</TestRun>
